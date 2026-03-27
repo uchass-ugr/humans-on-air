@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Humans on AIr — UGR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cream: #F5F0E8;
+      --ink: #1A1714;
+      --red: #C8392B;
+      --red-light: #E8513F;
+      --gold: #D4A843;
+      --mid: #6B6560;
+      --border: #D8D0C4;
+      --white: #FDFAF5;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--cream);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 3rem;
+      background: rgba(245, 240, 232, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      animation: fadeDown 0.6s ease both;
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      text-decoration: none;
+      color: var(--ink);
+      display: flex;
+      align-items: baseline;
+      gap: 0;
+    }
+    .logo .ai { color: var(--red); font-style: italic; }
+
+    nav { display: flex; gap: 2rem; align-items: center; }
+    nav a {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--mid);
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--red); }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 80px;
+      overflow: hidden;
+    }
+
+    .hero-left {
+      padding: 6rem 3rem 4rem 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      animation: fadeLeft 0.9s 0.2s ease both;
+    }
+
+    @keyframes fadeLeft {
+      from { opacity: 0; transform: translateX(-30px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    .hero-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .hero-tag::before {
+      content: '';
+      display: block;
+      width: 2rem;
+      height: 1px;
+      background: var(--red);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3.5rem, 6vw, 5.5rem);
+      font-weight: 900;
+      line-height: 1.0;
+      letter-spacing: -0.03em;
+      margin-bottom: 2rem;
+    }
+    h1 em { color: var(--red); font-style: italic; }
+
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--mid);
+      max-width: 480px;
+      margin-bottom: 3rem;
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--ink);
+      color: var(--cream);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.9rem 1.75rem;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn:hover { background: var(--red); transform: translateY(-2px); }
+    .btn-outline {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--ink);
+    }
+    .btn-outline:hover { background: var(--ink); color: var(--cream); }
+
+    .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+    .hero-right {
+      background: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 3rem;
+      position: relative;
+      overflow: hidden;
+      animation: fadeRight 0.9s 0.3s ease both;
+    }
+
+    @keyframes fadeRight {
+      from { opacity: 0; transform: translateX(30px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    .hero-right::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -50%;
+      width: 200%; height: 200%;
+      background: radial-gradient(circle at 60% 40%, rgba(200,57,43,0.25) 0%, transparent 60%),
+                  radial-gradient(circle at 20% 80%, rgba(212,168,67,0.15) 0%, transparent 50%);
+      animation: breathe 6s ease-in-out infinite alternate;
+    }
+
+    @keyframes breathe {
+      from { transform: scale(1) rotate(0deg); }
+      to   { transform: scale(1.1) rotate(3deg); }
+    }
+
+    .hero-quote {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+    .hero-quote blockquote {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      font-style: italic;
+      color: var(--cream);
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+    .hero-quote cite {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      text-transform: uppercase;
+      font-style: normal;
+    }
+
+    /* Floating orbs */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.12;
+      animation: float 8s ease-in-out infinite alternate;
+    }
+    .orb-1 { width: 300px; height: 300px; background: var(--red); top: -80px; right: -80px; animation-duration: 7s; }
+    .orb-2 { width: 200px; height: 200px; background: var(--gold); bottom: -60px; left: -40px; animation-duration: 9s; animation-delay: -3s; }
+
+    @keyframes float {
+      from { transform: translate(0, 0); }
+      to   { transform: translate(20px, -20px); }
+    }
+
+    /* ── SECTIONS COMMON ── */
+    section { padding: 6rem 3rem; }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+    .section-num {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--red);
+      letter-spacing: 0.1em;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    /* ── ABOUT ── */
+    #about { background: var(--white); }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .about-text p {
+      color: var(--mid);
+      margin-bottom: 1.25rem;
+      font-size: 1.025rem;
+    }
+
+    .about-logos {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .org-card {
+      border: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+      background: var(--cream);
+      position: relative;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .org-card:hover { border-color: var(--red); transform: translateX(4px); }
+    .org-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--red);
+      transform: scaleY(0);
+      transition: transform 0.2s;
+    }
+    .org-card:hover::before { transform: scaleY(1); }
+    .org-name {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--red);
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
+    }
+    .org-full { font-size: 0.9rem; color: var(--mid); }
+
+    /* ── NEWS / PRÓXIMA CHARLA ── */
+    #noticias { background: var(--cream); }
+
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .news-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: transform 0.25s, box-shadow 0.25s;
+      cursor: pointer;
+    }
+    .news-card:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(26,23,20,0.1); }
+
+    .news-card-top {
+      background: var(--ink);
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .news-card-top::after {
+      content: '';
+      position: absolute;
+      bottom: -1px; left: 0; right: 0;
+      height: 40px;
+      background: var(--white);
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+    .news-tag {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: var(--red);
+      color: var(--white);
+      padding: 0.25rem 0.6rem;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    .news-date {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--white);
+      line-height: 1;
+    }
+    .news-month {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    .news-card-body { padding: 2rem; }
+    .news-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
+    .news-desc { font-size: 0.9rem; color: var(--mid); margin-bottom: 1.5rem; }
+    .news-link {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--red);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: gap 0.2s;
+    }
+    .news-link:hover { gap: 0.75rem; }
+
+    /* ── ACCIONES FORMATIVAS / CHARLAS ── */
+    #acciones { background: var(--ink); }
+    #acciones h2 { color: var(--cream); }
+    #acciones .section-num { color: var(--gold); }
+
+    .talks-list { display: flex; flex-direction: column; gap: 0; }
+
+    .talk-item {
+      display: grid;
+      grid-template-columns: 120px 1fr auto;
+      gap: 2rem;
+      align-items: center;
+      padding: 2rem 0;
+      border-bottom: 1px solid rgba(245,240,232,0.1);
+      transition: background 0.2s;
+    }
+    .talk-item:hover { background: rgba(255,255,255,0.03); }
+
+    .talk-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 900;
+      color: rgba(245,240,232,0.15);
+      line-height: 1;
+    }
+    .talk-info {}
+    .talk-speaker {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.35rem;
+    }
+    .talk-title-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      color: var(--cream);
+      margin-bottom: 0.5rem;
+    }
+    .talk-meta {
+      font-size: 0.82rem;
+      color: rgba(245,240,232,0.45);
+    }
+
+    /* Video embed area */
+    .talk-video {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto 2rem;
+    }
+    .video-placeholder {
+      background: rgba(245,240,232,0.05);
+      border: 1px dashed rgba(245,240,232,0.2);
+      aspect-ratio: 16/9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .video-placeholder:hover { border-color: var(--red); background: rgba(200,57,43,0.05); }
+    .video-placeholder svg { opacity: 0.4; }
+    .video-placeholder p {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(245,240,232,0.4);
+    }
+
+    /* Video modal */
+    .video-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(26,23,20,0.92);
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .video-modal.active { display: flex; }
+    .video-modal-inner {
+      width: 100%;
+      max-width: 900px;
+      background: var(--ink);
+    }
+    .video-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid rgba(245,240,232,0.1);
+    }
+    .video-modal-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--cream);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+    .modal-close:hover { opacity: 1; color: var(--red); }
+    .video-embed-wrap {
+      padding: 0;
+      aspect-ratio: 16/9;
+      background: #000;
+    }
+    .video-embed-wrap iframe, .video-embed-wrap video {
+      width: 100%; height: 100%; border: none; display: block;
+    }
+
+    /* Formulario embeber video */
+    .embed-form {
+      padding: 1.5rem;
+      border-top: 1px solid rgba(245,240,232,0.1);
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .embed-form label {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      color: rgba(245,240,232,0.5);
+      text-transform: uppercase;
+    }
+    .embed-form input {
+      flex: 1;
+      background: rgba(245,240,232,0.06);
+      border: 1px solid rgba(245,240,232,0.15);
+      color: var(--cream);
+      padding: 0.6rem 1rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.78rem;
+      min-width: 200px;
+    }
+    .embed-form input:focus { outline: none; border-color: var(--red); }
+
+    /* ── EQUIPO ── */
+    #equipo { background: var(--white); }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+
+    .member-card {
+      border: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      background: var(--cream);
+      text-align: center;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+    .member-card:hover { transform: translateY(-4px); border-color: var(--red); box-shadow: 0 10px 30px rgba(200,57,43,0.1); }
+
+    .member-avatar {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      background: var(--ink);
+      margin: 0 auto 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--cream);
+      letter-spacing: -0.02em;
+    }
+
+    .member-role {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 0.4rem;
+    }
+    .member-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .member-affil {
+      font-size: 0.8rem;
+      color: var(--mid);
+      line-height: 1.5;
+    }
+
+    /* IP badge */
+    .ip-badge {
+      position: absolute;
+      top: 1rem; right: 1rem;
+      background: var(--red);
+      color: var(--white);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.5rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: end;
+      border-top: 3px solid var(--red);
+    }
+
+    .footer-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--cream);
+      margin-bottom: 0.5rem;
+    }
+    .footer-brand span { color: var(--red); font-style: italic; }
+    .footer-sub {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      color: rgba(245,240,232,0.35);
+      text-transform: uppercase;
+    }
+    .footer-copy {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      color: rgba(245,240,232,0.3);
+      text-align: right;
+      line-height: 1.8;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, var(--red) 0%, transparent 100%);
+      margin: 4rem 0;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      header { padding: 1rem 1.5rem; }
+      nav { display: none; }
+      #hero { grid-template-columns: 1fr; }
+      .hero-right { display: none; }
+      .hero-left { padding: 5rem 1.5rem 3rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      section { padding: 4rem 1.5rem; }
+      footer { grid-template-columns: 1fr; }
+      .footer-copy { text-align: left; }
+      .talk-item { grid-template-columns: 60px 1fr; }
+      .talk-item .btn { display: none; }
+    }
+
+    /* ── SCROLL ANIMATIONS ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="#" class="logo">Humans on <em class="ai">AI</em>r</a>
+  <nav>
+    <a href="#about">Sobre el proyecto</a>
+    <a href="#noticias">Noticias</a>
+    <a href="#acciones">Charlas</a>
+    <a href="#equipo">Equipo</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-left">
+    <p class="hero-tag">Universidad de Granada · U-CHASS</p>
+    <h1>Humans<br/>on <em>AI</em>r</h1>
+    <p class="hero-desc">
+      Un ciclo de charlas sobre humanidades, lenguaje e inteligencia artificial. Un espacio abierto de reflexión donde la tecnología se encuentra con las ciencias humanas.
+    </p>
+    <div class="hero-ctas">
+      <a href="#noticias" class="btn">Próxima charla →</a>
+      <a href="#acciones" class="btn btn-outline">Ver charlas</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="hero-quote">
+      <blockquote>
+        "La inteligencia artificial no sustituye la comprensión humana: la interroga."
+      </blockquote>
+      <cite>Humans on AIr · UGR</cite>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-num">01</span>
+    <h2>Sobre el proyecto</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>
+        <strong>Humans on AIr</strong> es un ciclo de charlas sobre humanidades, lenguaje e inteligencia artificial, organizado en el seno de la Universidad de Granada con vocación pública e interdisciplinar.
+      </p>
+      <p>
+        Este proyecto nace con el objetivo de construir un foro de debate sobre cuestiones relacionadas con la inteligencia artificial y la computación desde un enfoque basado en las humanidades en su sentido más amplio.
+      </p>
+      <p>
+        A través de ponencias, talleres y actividades impartidas por expertos en lingüística, neurociencia, ciencia de datos, computación, IA, literatura, periodismo y ética, se busca abrir un espacio de reflexión sobre el impacto de la inteligencia artificial en distintos ámbitos del conocimiento.
+      </p>
+    </div>
+    <div class="about-logos reveal">
+      <div class="org-card">
+        <div class="org-name">U-CHASS</div>
+        <div class="org-full">Unidad de Humanidades y Ciencias Sociales Computacionales</div>
+      </div>
+      <div class="org-card">
+        <div class="org-name">Máster de Traducción Profesional</div>
+        <div class="org-full">Facultad de Traducción e Interpretación · UGR</div>
+      </div>
+      <div class="org-card">
+        <div class="org-name">Proyecto TRADia</div>
+        <div class="org-full">Proyecto PID 24-180 TRADia</div>
+      </div>
+      <div class="org-card">
+        <div class="org-name">Unidad de Cultura Científica</div>
+        <div class="org-full">Universidad de Granada</div>
+      </div>
+      <div class="org-card">
+        <div class="org-name">Facultad de Traducción e Interpretación</div>
+        <div class="org-full">Universidad de Granada</div>
+      </div>
+      <div class="org-card">
+        <div class="org-name">Medialab UGR</div>
+        <div class="org-full">Unidad de Cultura Científica · Universidad de Granada</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NOTICIAS -->
+<section id="noticias">
+  <div class="section-header reveal">
+    <span class="section-num">02</span>
+    <h2>Noticias y eventos</h2>
+  </div>
+  <div class="news-grid">
+    <!-- PRÓXIMA CHARLA -->
+    <div class="news-card reveal">
+      <div class="news-card-top">
+        <span class="news-tag">Próxima charla</span>
+        <div class="news-date">07</div>
+        <div class="news-month">Abril · 2026</div>
+      </div>
+      <div class="news-card-body">
+        <div class="news-title">¿Tiene sexo la tecnología? Reflexiones sobre percepciones, atribuciones y sesgos desde la prehistoria</div>
+        <div class="news-desc">
+          Charla a cargo de <strong>Marga Sánchez Romero</strong>, Catedrática de Prehistoria y Vicerrectora de Extensión Universitaria, Patrimonio y Relaciones Institucionales · UGR.<br/><br/>
+          📅 7 de abril de 2026 · 11:00 h<br/>
+          📍 Salón de Grados, Facultad de Traducción e Interpretación (C/ Buensuceso)
+        </div>
+        <a href="#" class="news-link">Más información →</a>
+      </div>
+    </div>
+
+    <!-- PLACEHOLDER -->
+    <div class="news-card reveal" style="opacity:0.5; pointer-events:none;">
+      <div class="news-card-top" style="background:#3a3530;">
+        <span class="news-tag" style="background:var(--mid);">Próximamente</span>
+        <div class="news-date" style="color:rgba(245,240,232,0.3);">??</div>
+        <div class="news-month" style="color:rgba(212,168,67,0.4);">Por definir</div>
+      </div>
+      <div class="news-card-body">
+        <div class="news-title" style="color:var(--mid);">Nueva sesión en preparación</div>
+        <div class="news-desc">Próximamente anunciaremos nuevas fechas y ponentes del ciclo.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACCIONES FORMATIVAS / CHARLAS -->
+<section id="acciones">
+  <div class="section-header reveal">
+    <span class="section-num" style="color:var(--gold);">03</span>
+    <h2 style="color:var(--cream);">Charlas y acciones formativas</h2>
+  </div>
+
+  <!-- Featured video embed area -->
+  <div class="talk-video reveal">
+    <div class="video-placeholder" id="videoPlaceholderMain" onclick="openModal('main')">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <circle cx="12" cy="12" r="10"/>
+        <polygon points="10,8 16,12 10,16" fill="white" stroke="none"/>
+      </svg>
+      <p>Vídeo de la charla disponible próximamente</p>
+      <p style="font-size:0.6rem; opacity:0.5;">Haz clic para añadir un enlace de vídeo</p>
+    </div>
+  </div>
+
+  <div class="talks-list">
+    <div class="talk-item reveal">
+      <div class="talk-num">01</div>
+      <div class="talk-info">
+        <div class="talk-speaker">Marga Sánchez Romero · 7 de abril, 2026 · 11:00 h</div>
+        <div class="talk-title-text">¿Tiene sexo la tecnología? Reflexiones sobre percepciones, atribuciones y sesgos desde la prehistoria</div>
+        <div class="talk-meta">Salón de Grados · Facultad de Traducción e Interpretación (C/ Buensuceso) · UGR</div>
+      </div>
+      <button class="btn" style="white-space:nowrap;" onclick="openModal('talk1')">Ver vídeo</button>
+    </div>
+    <div class="talk-item reveal" style="opacity:0.35;">
+      <div class="talk-num">02</div>
+      <div class="talk-info">
+        <div class="talk-speaker">Por definir · Próximamente</div>
+        <div class="talk-title-text">Segunda sesión del ciclo</div>
+        <div class="talk-meta">Por anunciar</div>
+      </div>
+    </div>
+    <div class="talk-item reveal" style="opacity:0.2;">
+      <div class="talk-num">03</div>
+      <div class="talk-info">
+        <div class="talk-speaker">Por definir · Próximamente</div>
+        <div class="talk-title-text">Tercera sesión del ciclo</div>
+        <div class="talk-meta">Por anunciar</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPO -->
+<section id="equipo">
+  <div class="section-header reveal">
+    <span class="section-num">04</span>
+    <h2>El equipo</h2>
+  </div>
+  <div class="team-grid">
+
+    <div class="member-card reveal">
+      <div class="ip-badge">IP</div>
+      <div class="member-avatar">BB</div>
+      <div class="member-role">Investigador Principal</div>
+      <div class="member-name">Benamí Barros García</div>
+      <div class="member-affil">Universidad de Granada</div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-avatar">NR</div>
+      <div class="member-role">Investigador</div>
+      <div class="member-name">Nicolás Robinson-García</div>
+      <div class="member-affil">Universidad de Granada</div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-avatar">EG</div>
+      <div class="member-role">Investigadora</div>
+      <div class="member-name">Elvira González Salmon</div>
+      <div class="member-affil">Universidad de Granada</div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-avatar">SC</div>
+      <div class="member-role">Investigador</div>
+      <div class="member-name">Sergio Castro Cortacero</div>
+      <div class="member-affil">Universidad de Granada</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-brand">Humans on <span>AI</span>r</div>
+    <div class="footer-sub">Universidad de Granada · U-CHASS · Proyecto TRADia</div>
+  </div>
+  <div class="footer-copy">
+    © 2026 Humans on AIr<br/>
+    U-CHASS · Máster de Traducción Profesional<br/>
+    Medialab UGR · Universidad de Granada
+  </div>
+</footer>
+
+<!-- MODAL DE VÍDEO -->
+<div class="video-modal" id="videoModal">
+  <div class="video-modal-inner">
+    <div class="video-modal-header">
+      <span class="video-modal-title" id="modalTitle">Charla — Humans on AIr</span>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="video-embed-wrap" id="videoEmbed">
+      <!-- El vídeo se inserta aquí dinámicamente -->
+      <div style="aspect-ratio:16/9; display:flex; align-items:center; justify-content:center; background:#111; color:rgba(255,255,255,0.3); font-family:'DM Mono',monospace; font-size:0.8rem; text-align:center; padding:2rem;">
+        Añade la URL del vídeo (YouTube, Vimeo o archivo) en el campo de abajo.
+      </div>
+    </div>
+    <div class="embed-form">
+      <label for="videoUrl">URL del vídeo</label>
+      <input type="text" id="videoUrl" placeholder="https://www.youtube.com/watch?v=... o Vimeo..." />
+      <button class="btn" onclick="embedVideo()">Cargar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── SCROLL REVEAL ──
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+      }
+    });
+  }, { threshold: 0.08 });
+  reveals.forEach(el => observer.observe(el));
+
+  // ── VIDEO MODAL ──
+  let currentModal = null;
+
+  function openModal(id) {
+    currentModal = id;
+    document.getElementById('videoModal').classList.add('active');
+    document.getElementById('videoUrl').value = '';
+    // Reset embed
+    document.getElementById('videoEmbed').innerHTML = `
+      <div style="aspect-ratio:16/9; display:flex; align-items:center; justify-content:center; background:#111; color:rgba(255,255,255,0.3); font-family:'DM Mono',monospace; font-size:0.8rem; text-align:center; padding:2rem;">
+        Añade la URL del vídeo (YouTube, Vimeo o archivo) en el campo de abajo y pulsa «Cargar».
+      </div>`;
+  }
+
+  function closeModal() {
+    document.getElementById('videoModal').classList.remove('active');
+    // Stop any video playing
+    document.getElementById('videoEmbed').innerHTML = '';
+  }
+
+  document.getElementById('videoModal').addEventListener('click', function(e) {
+    if (e.target === this) closeModal();
+  });
+
+  function embedVideo() {
+    const url = document.getElementById('videoUrl').value.trim();
+    if (!url) return;
+
+    let embedHtml = '';
+
+    // YouTube
+    const ytMatch = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/);
+    if (ytMatch) {
+      embedHtml = `<iframe src="https://www.youtube.com/embed/${ytMatch[1]}?autoplay=1" allow="autoplay; fullscreen" allowfullscreen style="width:100%;height:100%;border:none;display:block;aspect-ratio:16/9;"></iframe>`;
+    }
+
+    // Vimeo
+    const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
+    if (vimeoMatch) {
+      embedHtml = `<iframe src="https://player.vimeo.com/video/${vimeoMatch[1]}?autoplay=1" allow="autoplay; fullscreen" allowfullscreen style="width:100%;height:100%;border:none;display:block;aspect-ratio:16/9;"></iframe>`;
+    }
+
+    // Direct video file
+    if (!embedHtml && (url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.ogg'))) {
+      embedHtml = `<video controls autoplay style="width:100%;height:100%;background:#000;display:block;"><source src="${url}"><p style="color:white;padding:2rem;">No se puede reproducir el vídeo.</p></video>`;
+    }
+
+    if (!embedHtml) {
+      alert('URL no reconocida. Introduce una URL de YouTube, Vimeo o un archivo de vídeo (.mp4, .webm).');
+      return;
+    }
+
+    const wrap = document.getElementById('videoEmbed');
+    wrap.style.aspectRatio = '16/9';
+    wrap.innerHTML = embedHtml;
+  }
+</script>
+</body>
+</html>
