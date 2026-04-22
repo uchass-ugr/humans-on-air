@@ -6,7 +6,7 @@
   <title>Taller: Modelos de lenguaje como agentes colaboradores — Humans on AIr</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet" />
   <style>
     :root {
       --cream: #F5F0E8;
@@ -25,7 +25,7 @@
     body {
       background: var(--cream);
       color: var(--ink);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'IBM Plex Mono', monospace;
       font-weight: 300;
       line-height: 1.7;
     }
@@ -50,7 +50,7 @@
     }
     nav { display: flex; gap: 2rem; align-items: center; }
     nav a {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.72rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -83,7 +83,7 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.68rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -96,7 +96,7 @@
 
     .news-type-badge {
       display: inline-block;
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.68rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -106,7 +106,7 @@
       margin-bottom: 1.5rem;
     }
     .news-hero h1 {
-      font-family: 'Playfair Display', serif;
+      font-family: 'IBM Plex Serif', serif;
       font-size: clamp(1.8rem, 3.5vw, 2.8rem);
       font-weight: 700;
       color: var(--cream);
@@ -127,7 +127,7 @@
       gap: 0.25rem;
     }
     .meta-label {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.6rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -146,7 +146,7 @@
     }
 
     .news-body p {
-      font-size: 1.05rem;
+      font-size: 0.97rem;
       color: var(--mid);
       line-height: 1.85;
       margin-bottom: 1.5rem;
@@ -154,7 +154,7 @@
     .news-body p strong { color: var(--ink); font-weight: 500; }
 
     .news-body h2 {
-      font-family: 'Playfair Display', serif;
+      font-family: 'IBM Plex Serif', serif;
       font-size: 1.5rem;
       font-weight: 700;
       color: var(--ink);
@@ -163,7 +163,7 @@
     }
 
     .news-body h3 {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.75rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -180,7 +180,7 @@
       margin: 2.5rem 0;
     }
     .info-box-title {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.68rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -226,7 +226,7 @@
       background: var(--green);
     }
     .block-num {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.6rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -234,7 +234,7 @@
       margin-bottom: 0.4rem;
     }
     .block-title {
-      font-family: 'Playfair Display', serif;
+      font-family: 'IBM Plex Serif', serif;
       font-size: 0.95rem;
       font-weight: 700;
       color: var(--ink);
@@ -264,14 +264,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: 'Playfair Display', serif;
+      font-family: 'IBM Plex Serif', serif;
       font-size: 1.2rem;
       font-weight: 700;
       color: var(--cream);
       flex-shrink: 0;
     }
     .speaker-label {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.62rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -279,7 +279,7 @@
       margin-bottom: 0.3rem;
     }
     .speaker-name {
-      font-family: 'Playfair Display', serif;
+      font-family: 'IBM Plex Serif', serif;
       font-size: 1.1rem;
       font-weight: 700;
       margin-bottom: 0.25rem;
@@ -306,7 +306,7 @@
       gap: 0.5rem;
       background: var(--ink);
       color: var(--cream);
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.75rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -330,14 +330,14 @@
       border-top: 3px solid var(--red);
     }
     .footer-brand {
-      font-family: 'Playfair Display', serif;
+      font-family: 'IBM Plex Serif', serif;
       font-size: 1.2rem;
       font-weight: 900;
       color: var(--cream);
     }
     .footer-brand span { color: var(--red); font-style: italic; }
     .footer-copy {
-      font-family: 'DM Mono', monospace;
+      font-family: 'IBM Plex Mono', monospace;
       font-size: 0.65rem;
       color: rgba(245,240,232,0.3);
       text-align: right;
@@ -394,6 +394,25 @@
         <span class="meta-value">Libre hasta completar aforo</span>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- CARTEL -->
+<div style="background: #0e0c0a; padding: 3rem; display:flex; justify-content:center; align-items:center;">
+  <div style="max-width:480px; width:100%; position:relative;">
+    <img src="../assets/carteles/taller-modelos-lenguaje-2026.jpg"
+         alt="Cartel del taller — Modelos de lenguaje como colaboradores en Traducción"
+         style="width:100%; display:block; box-shadow: 0 24px 60px rgba(0,0,0,0.6);" />
+    <a href="../assets/carteles/taller-modelos-lenguaje-2026.jpg"
+       download
+       style="display:inline-flex; align-items:center; gap:0.5rem; margin-top:1.25rem;
+              font-family:'IBM Plex Mono',monospace; font-size:0.68rem; letter-spacing:0.1em;
+              text-transform:uppercase; color:rgba(245,240,232,0.4); text-decoration:none;
+              transition:color 0.2s;"
+       onmouseover="this.style.color='rgba(245,240,232,0.9)'"
+       onmouseout="this.style.color='rgba(245,240,232,0.4)'">
+      ↓ Descargar cartel
+    </a>
   </div>
 </div>
 
