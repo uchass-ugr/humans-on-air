@@ -60,24 +60,62 @@
     }
     nav a:hover { color: var(--red); }
 
-    /* ── HERO NOTICIA ── */
-    .news-hero {
+    /* ── HERO con cartel ── */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      min-height: 100vh;
+      padding-top: 68px;
+    }
+    .hero-poster {
+      background: #0a0908;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+    }
+    .hero-poster img {
+      width: 100%;
+      max-width: 280px;
+      display: block;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+    }
+    .hero-poster a.download {
+      margin-top: 1rem;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(245,240,232,0.3);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .hero-poster a.download:hover { color: rgba(245,240,232,0.8); }
+    .hero-content {
       background: var(--green-dark);
-      padding: 9rem 3rem 5rem;
+      padding: 5rem 3.5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       position: relative;
       overflow: hidden;
     }
-    .news-hero::before {
+    .hero-content h1 { color: var(--cream); }
+    .hero-content h1 em { color: var(--red); font-style: italic; }
+    .hero-content .back-link { color: rgba(245,240,232,0.4); }
+    .hero-content .back-link:hover { color: var(--cream); }
+    .hero-content::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(circle at 70% 50%, rgba(42,122,74,0.3) 0%, transparent 60%);
+      background: radial-gradient(circle at 80% 30%, rgba(42,122,74,0.25) 0%, transparent 55%);
+      pointer-events: none;
     }
-    .news-hero-inner {
-      max-width: 820px;
-      margin: 0 auto;
-      position: relative;
-      z-index: 1;
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; min-height: auto; }
+      .hero-poster { padding: 2rem 1.5rem; }
+      .hero-content { padding: 3rem 1.5rem; }
     }
     .back-link {
       display: inline-flex;
@@ -370,9 +408,20 @@
   </nav>
 </header>
 
-<!-- HERO -->
-<div class="news-hero">
-  <div class="news-hero-inner">
+<!-- HERO CON CARTEL -->
+<div class="hero-grid">
+
+  <!-- Cartel izquierda -->
+  <div class="hero-poster">
+    <img src="../assets/carteles/taller-modelos-lenguaje-2026.jpg"
+         alt="Cartel — Taller modelos de lenguaje · Humans on AIr" />
+    <a href="../assets/carteles/taller-modelos-lenguaje-2026.jpg" download class="download">
+      ↓ Descargar cartel
+    </a>
+  </div>
+
+  <!-- Ficha técnica derecha -->
+  <div class="hero-content">
     <a href="../index.html#noticias" class="back-link">← Volver a noticias</a>
     <div class="news-type-badge">Taller formativo</div>
     <h1>Modelos de lenguaje como agentes colaboradores en revisión bibliográfica, gestión terminológica y evaluación de la calidad en Traducción</h1>
@@ -395,25 +444,7 @@
       </div>
     </div>
   </div>
-</div>
 
-<!-- CARTEL -->
-<div style="background: #0e0c0a; padding: 3rem; display:flex; justify-content:center; align-items:center;">
-  <div style="max-width:480px; width:100%; position:relative;">
-    <img src="../assets/carteles/taller-modelos-lenguaje-2026.jpg"
-         alt="Cartel del taller — Modelos de lenguaje como colaboradores en Traducción"
-         style="width:100%; display:block; box-shadow: 0 24px 60px rgba(0,0,0,0.6);" />
-    <a href="../assets/carteles/taller-modelos-lenguaje-2026.jpg"
-       download
-       style="display:inline-flex; align-items:center; gap:0.5rem; margin-top:1.25rem;
-              font-family:'IBM Plex Mono',monospace; font-size:0.68rem; letter-spacing:0.1em;
-              text-transform:uppercase; color:rgba(245,240,232,0.4); text-decoration:none;
-              transition:color 0.2s;"
-       onmouseover="this.style.color='rgba(245,240,232,0.9)'"
-       onmouseout="this.style.color='rgba(245,240,232,0.4)'">
-      ↓ Descargar cartel
-    </a>
-  </div>
 </div>
 
 <!-- BODY -->
