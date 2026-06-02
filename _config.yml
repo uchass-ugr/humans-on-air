@@ -1,0 +1,52 @@
+# =============================================================
+# Configuración principal — Minimal Mistakes
+# =============================================================
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+theme_skin: "default"
+
+title: "Humans on AIr"
+name: "Tu Nombre o Equipo"
+description: "Ciclo de charlas Humans on AIr"
+url: "https://egonzalezsalmon.github.io"
+baseurl: "/humans-on-air" 
+
+locale: "es-ES"
+logo: "/assets/images/logo_combo.png"  
+
+# ----- Autor por defecto -----
+author:
+  name: "Tu Nombre"
+  bio: "Investigador/a en ..."
+  email: "tu@email.com"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/TU_USUARIO"
+
+# ----- Navegación principal -----
+# (se define en _data/navigation.yml)
+
+# ----- Opciones de lectura -----
+read_time: false
+comments: false
+share: false
+related: false
+
+# ----- Plugins -----
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# ----- Sass -----
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# ----- Exclusiones -----
+exclude:
+  - "*.gemspec"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - README.md

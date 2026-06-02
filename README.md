@@ -1,30 +1,100 @@
-# Humans on AIr
+# Cómo publicar este sitio en GitHub Pages
 
-Página web oficial del proyecto **Humans on AIr** (MediaUGR-3), un ciclo de charlas sobre humanidades, lenguaje e inteligencia artificial organizado por la [Unidad de Humanidades y Ciencias Sociales Computacionales (U-CHASS)](https://uchass.ugr.es) y el Máster en Traducción Profesional de la Universidad de Granada.
+## Estructura de archivos
 
-## Sobre el proyecto
+```
+mi-proyecto-web/
+├── _config.yml          ← configuración global
+├── _data/
+│   └── navigation.yml   ← menú de navegación
+├── assets/
+│   └── images/          ← pon aquí tus imágenes
+├── index.md             ← portada
+├── sobre.md             ← sección "Sobre el proyecto"
+├── noticias.md          ← sección "Noticias"
+├── charlas.md           ← sección "Charlas"
+├── talleres.md          ← sección "Talleres"
+├── equipo.md            ← sección "Equipo"
+└── Gemfile
+```
 
-*Humans on AIr* nace con el objetivo de construir un foro de debate sobre cuestiones relacionadas con la inteligencia artificial y la computación desde un enfoque humanístico en su sentido más amplio. A través de ponencias y actividades impartidas por expertos en lingüística, neurociencia, ciencia de datos, IA, literatura, periodismo y ética, el proyecto abre un espacio de reflexión sobre el impacto de la tecnología en distintos ámbitos del conocimiento.
+---
 
-## Contenido de la web
+## Pasos para publicar
 
-- **Sobre el proyecto** — descripción, organización y entidades colaboradoras
-- **Noticias y eventos** — anuncios de próximas charlas
-- **Charlas** — archivo de todas las sesiones por temporada, con resúmenes y vídeos embebidos
-- **Equipo** — miembros del proyecto con enlace a sus perfiles institucionales
+### 1. Crear el repositorio en GitHub
 
-## Tecnología
+1. Ve a https://github.com/new
+2. Nombre del repositorio:
+   - Si quieres que la URL sea `https://TU-USUARIO.github.io` → llámalo `TU-USUARIO.github.io`
+   - Si quieres `https://TU-USUARIO.github.io/mi-proyecto` → llámalo `mi-proyecto`
+3. Márcalo como **Public**
+4. No añadas README ni .gitignore ahora (ya los tienes aquí)
 
-Sitio web estático en HTML, CSS y JavaScript vanilla. Alojado en [GitHub Pages](https://pages.github.com/).
+### 2. Subir los archivos
 
-## Organización
+Desde la terminal, en la carpeta de este proyecto:
 
-- Proyecto Humans on AIr (MediaUGR-3)
-- Unidad de Humanidades y Ciencias Sociales Computacionales (U-CHASS) — Universidad de Granada
-- Proyecto PID 25-263
-- Máster en Traducción Profesional — Universidad de Granada
-- Medialab UGR
+```bash
+git init
+git add .
+git commit -m "Primer commit: estructura base del sitio"
+git branch -M main
+git remote add origin https://github.com/TU-USUARIO/NOMBRE-REPO.git
+git push -u origin main
+```
 
-## Licencia
+### 3. Activar GitHub Pages
 
-© 2026 Humans on AIr · Universidad de Granada
+1. Ve a tu repositorio → **Settings** → **Pages** (menú lateral izquierdo)
+2. En "Source" selecciona **Deploy from a branch**
+3. Rama: `main`, carpeta: `/ (root)`
+4. Haz clic en **Save**
+
+Al cabo de 1–2 minutos el sitio estará en:
+`https://TU-USUARIO.github.io` (o `/NOMBRE-REPO` según el paso 1)
+
+---
+
+## Personalización básica
+
+### Cambiar el nombre y descripción del sitio
+Edita `_config.yml`:
+```yaml
+title: "Nombre real del proyecto"
+description: "Tu descripción aquí"
+url: "https://TU-USUARIO.github.io"
+```
+
+### Añadir una noticia
+Abre `noticias.md` y añade una nueva entrada siguiendo el patrón:
+```markdown
+### Título de la noticia
+*Fecha*
+
+Texto de la noticia.
+```
+
+### Añadir imágenes
+Pon las imágenes en `assets/images/` y referencialas así en Markdown:
+```markdown
+![Texto alternativo](/assets/images/mi-imagen.jpg)
+```
+
+### Cambiar el color de cabecera en la portada
+En `index.md`, cambia el valor de `overlay_color`:
+```yaml
+overlay_color: "#1a1a2e"   # cualquier color hex
+```
+
+---
+
+## Actualizar el sitio
+
+Cada vez que hagas cambios, simplemente:
+```bash
+git add .
+git commit -m "Descripción del cambio"
+git push
+```
+GitHub reconstruye el sitio automáticamente en 1–2 minutos.
