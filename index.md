@@ -11,9 +11,8 @@ header:
   caption: ""
 ---
 
-## ÚLTIMAS NOTICIAS  
+## **⚠️PRÓXIMA CHARLA⚠️**
 
-**⚠️PRÓXIMA CHARLA⚠️**
 ### La evaluación de las carreras académicas en el contexto actual  
 **Fecha:** 15 de junio de 2026, 12:00h  
 **Lugar:** Sala Triunfo, Complejo administrativo Triunfo (Av. Hospicio s/n), Universidad de Granada  
