@@ -11,12 +11,12 @@ header:
   caption: ""
 ---
 
-## **⚠️PRÓXIMA CHARLA⚠️**
+## **PRÓXIMA CHARLA**
 
 ### La evaluación de las carreras académicas en el contexto actual  
 **Fecha:** 15 de junio de 2026, 12:00h  
 **Lugar:** Sala Triunfo, Complejo administrativo Triunfo (Av. Hospicio s/n), Universidad de Granada  
-**Ponente:** Pilar Paneque Salgado (Directora de la Agencia Nacional de Evaluación de la Calidad y Acreditación Catedrática de Geografía Humana de la Universidad Pablo de Olavide)  
+**Ponente:** **Pilar Paneque Salgado** (Directora de la Agencia Nacional de Evaluación de la Calidad y Acreditación Catedrática de Geografía Humana de la Universidad Pablo de Olavide)  
 
 **Entrada libre hasta completar aforo.** 
 
