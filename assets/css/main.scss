@@ -30,7 +30,12 @@ $link-color-hover: darken($primary-color, 15%);
 $masthead-link-color: $dark-color;
 $masthead-link-color-hover: $primary-color;
 
-// 5. Ocultar título y tagline del hero overlay (ya van en la imagen)
+// 5. Hero overlay: altura y posición
+.page__hero--overlay {
+  min-height: 400px;
+  background-position: center top !important;
+}
+
 .page__hero--overlay .page__title,
 .page__hero--overlay .page__lead {
   display: none;

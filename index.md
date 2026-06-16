@@ -7,19 +7,18 @@ header:
   overlay_image: /assets/images/banner.jpg
 ---
 
-## **PRÓXIMA CHARLA**
+## **PRÓXIMO TALLER**
 
-### La evaluación de las carreras académicas en el contexto actual  
-**Fecha:** 15 de junio de 2026, 12:00h  
-**Lugar:** Sala Triunfo, Complejo administrativo Triunfo (Av. Hospicio s/n), Universidad de Granada  
-**Ponente:** **Pilar Paneque Salgado** (Directora de la Agencia Nacional de Evaluación de la Calidad y Acreditación Catedrática de Geografía Humana de la Universidad Pablo de Olavide)  
+### Taller de IA: Guía de buenas prácticas para la iniciación en el uso de la IA Generativa  
+**Fecha:** 19 de junio de 2026, 10:30–12:30h  
+**Lugar:** Punto Vuela de Quéntar, C/ San Sebastián 1, Quéntar, Granada  
+**Ponentes:** **Benamí Barros García, Nicolás Robinson-García y Elvira González-Salmón** (U^CHASS, Universidad de Granada)  
 
-**Entrada libre hasta completar aforo.**  
+**Inscripción a través del Punto Vuela de Quéntar.**  
 
 <details>
 <summary><b>Ver descripción</b></summary>
 
-En el contexto actual, la evaluación de las carreras académicas supone un reto de enorme relevancia sobre el que merece la pena reflexionar. Por ello, Humans on Air cierra el curso académico 2025/26 con una charla de Pilar Paneque Salgado, directora de la ANECA. Bajo el título “La evaluación de las carreras académicas en el contexto actual”, la charla abordará claves e ideas sobre nuevos modelos de evaluación. 
+En este taller introducimos el concepto de IA Generativa, presentando sus principales características y limitaciones. Haremos un repaso de las diferentes opciones y servicios existentes en la actualidad, describiendo diferencias entre ellos y acabaremos resolviendo casos prácticos con ayuda de un chatbot conversacional.
 
-</details>  
-
+</details>
