@@ -9,11 +9,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/benami-barros.jpg' | relative_url }}" alt="Benamí Barros García">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/benami-barros.jpg' | relative_url }}" alt="Benamí Barros García" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Benamí Barros García  
 **Cargo:** Investigador principal  
@@ -29,11 +29,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/nicolas-robinson.jpg' | relative_url }}" alt="Nicolas Robinson-Garcia">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/nicolas-robinson.jpg' | relative_url }}" alt="Nicolas Robinson-Garcia" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Nicolas Robinson-Garcia  
 **Institución:** Universidad de Granada  
@@ -44,11 +44,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/zoraida-callejas.jpg' | relative_url }}" alt="Zoraida Callejas Carrión">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/zoraida-callejas.jpg' | relative_url }}" alt="Zoraida Callejas Carrión" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Zoraida Callejas Carrión  
 **Institución:** Universidad de Granada  
@@ -59,11 +59,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/pilar-leon.jpg' | relative_url }}" alt="Pilar León Araúz">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/pilar-leon.jpg' | relative_url }}" alt="Pilar León Araúz" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Pilar León Araúz  
 **Institución:** Universidad de Granada  
@@ -74,11 +74,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/elvira-gonzalez.jpg' | relative_url }}" alt="Elvira González Salmón">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/elvira-gonzalez.jpg' | relative_url }}" alt="Elvira González Salmón" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Elvira González Salmón  
 **Institución:** Universidad de Granada  
@@ -89,11 +89,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/sergio-castro.jpg' | relative_url }}" alt="Sergio Castro Cortacero">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/sergio-castro.jpg' | relative_url }}" alt="Sergio Castro Cortacero" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Sergio Castro Cortacero  
 **Institución:** Universidad de Granada  
@@ -104,11 +104,11 @@ author_profile: false
 
 ---
 
-<div class="team-card">
-<div class="team-photo">
-<img src="{{ '/assets/images/equipo/ines-gonzalez.jpg' | relative_url }}" alt="Inés de los Ángeles González Hidalgo">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 140px;">
+<img src="{{ '/assets/images/equipo/ines-gonzalez.jpg' | relative_url }}" alt="Inés de los Ángeles González Hidalgo" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
 </div>
-<div class="team-bio" markdown="1">
+<div style="flex:1;" markdown="1">
 
 ### Inés de los Ángeles González Hidalgo  
 **Institución:** Universidad de Granada  
