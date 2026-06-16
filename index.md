@@ -9,6 +9,12 @@ header:
 
 ## **PRÓXIMO TALLER**
 
+<div class="event-card">
+<div class="event-img">
+<img src="/assets/images/talleres/taller-ia-2026.jpg" alt="Taller IA Generativa">
+</div>
+<div class="event-details" markdown="1">
+
 ### Taller de IA: Guía de buenas prácticas para la iniciación en el uso de la IA Generativa  
 **Fecha:** 19 de junio de 2026, 10:30–12:30h  
 **Lugar:** Punto Vuela de Quéntar, C/ San Sebastián 1, Quéntar, Granada  
@@ -22,3 +28,6 @@ header:
 En este taller introducimos el concepto de IA Generativa, presentando sus principales características y limitaciones. Haremos un repaso de las diferentes opciones y servicios existentes en la actualidad, describiendo diferencias entre ellos y acabaremos resolviendo casos prácticos con ayuda de un chatbot conversacional.
 
 </details>
+
+</div>
+</div>

@@ -41,6 +41,39 @@ $masthead-link-color-hover: $primary-color;
   display: none;
 }
 
-// 6. Import the rest of the Minimal Mistakes styles
+// 6. Event card: imagen izquierda + detalles derecha
+.event-card {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.event-card .event-img {
+  flex: 0 0 200px;
+  width: 200px;
+}
+
+.event-card .event-img img {
+  width: 100%;
+  display: block;
+}
+
+.event-card .event-details {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .event-card {
+    flex-direction: column;
+  }
+  .event-card .event-img {
+    width: 100%;
+    flex: unset;
+  }
+}
+
+// 7. Import the rest of the Minimal Mistakes styles
 @import "minimal-mistakes/skins/default"; 
 @import "minimal-mistakes";
