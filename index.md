@@ -9,11 +9,11 @@ header:
 
 ## **PRÓXIMO TALLER**
 
-<div class="event-card">
-<div class="event-img">
-<img src="{{ '/assets/images/talleres/taller-ia-2026.jpg' | relative_url }}" alt="Taller IA Generativa">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/talleres/taller-ia-2026.jpg' | relative_url }}" alt="Taller IA Generativa" style="width:200px; display:block;">
 </div>
-<div class="event-details" markdown="1">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### Taller de IA: Guía de buenas prácticas para la iniciación en el uso de la IA Generativa  
 **Fecha:** 19 de junio de 2026, 10:30–12:30h  

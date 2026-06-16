@@ -11,8 +11,8 @@ author_profile: false
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### La evaluación de las carreras académicas en el contexto actual  
 **Fecha:** 15 de junio de 2026, 12:00h  
@@ -31,8 +31,8 @@ En el contexto actual, la evaluación de las carreras académicas supone un reto
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### ¿Tiene sexo la tecnología? Reflexiones sobre percepciones, atribuciones y sesgos desde la prehistoria  
 **Fecha:** 7 de abril de 2026  
@@ -57,8 +57,8 @@ Preguntarse si tiene sexo la tecnología no es algo trivial en un mundo en el qu
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### The AI Evaluator? Large Language Models and the Future of Research Assessment  
 **Fecha:** 11 de junio de 2025  
@@ -79,8 +79,8 @@ Evaluar la calidad de las publicaciones académicas es una tarea lenta que requi
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### Language Professions in the Era of Artificial Intelligence: The Wind of Change is Blowing  
 **Fecha:** 4 de junio de 2025  
@@ -101,8 +101,8 @@ Esta charla arroja luz sobre el futuro de las profesiones lingüísticas en la e
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### Managing uncertainties of generative AI translation  
 **Fecha:** 7 de mayo de 2025  
@@ -123,8 +123,8 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
 ### Las tecnologías del lenguaje: retos y oportunidades  
 **Fecha:** 30 de abril de 2025  
@@ -145,22 +145,7 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 
 ---
 
-<div class="event-card">
-<div class="event-details" markdown="1">
+<div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
+<div style="flex:1; min-width:0;" markdown="1">
 
-### Translation in the age of AI  
-**Fecha:** 19 de marzo de 2025  
-**Lugar:** Sala de Conferencias, Facultad de Traducción e Interpretación (Universidad de Granada)  
-**Ponente:** Lynne Bowker (Université Laval)  
-
-<details>
-<summary><b>Ver descripción</b></summary>
-
-Lynne Bowker, profesora de traducción, tecnologías y sociedad en la Universidad Laval (Quebec), aborda el impacto de la proliferación de herramientas y la popularización de la inteligencia artificial en el ámbito y la profesión de la traducción.
-
-</details>
-
-</div>
-</div>
-
----
+### Tran
