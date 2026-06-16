@@ -74,6 +74,40 @@ $masthead-link-color-hover: $primary-color;
   }
 }
 
-// 7. Import the rest of the Minimal Mistakes styles
+// 7. Team card: foto izquierda + bio derecha
+.team-card {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.team-card .team-photo {
+  flex: 0 0 140px;
+  width: 140px;
+}
+
+.team-card .team-photo img {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.team-card .team-bio {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .team-card {
+    flex-direction: column;
+  }
+  .team-card .team-photo {
+    width: 120px;
+    flex: unset;
+  }
+}
+
+// 8. Import the rest of the Minimal Mistakes styles
 @import "minimal-mistakes/skins/default"; 
 @import "minimal-mistakes";

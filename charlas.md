@@ -11,23 +11,28 @@ author_profile: false
 
 ---
 
+<div class="event-card">
+<div class="event-details" markdown="1">
+
 ### La evaluación de las carreras académicas en el contexto actual  
 **Fecha:** 15 de junio de 2026, 12:00h  
 **Lugar:** Sala Triunfo, Complejo administrativo Triunfo (Av. Hospicio s/n), Universidad de Granada  
-**Ponente:** Pilar Paneque Salgado (Directora de la Agencia Nacional de Evaluación de la Calidad y Acreditación Catedrática de Geografía Humana de la Universidad Pablo de Olavide)  
+**Ponente:** Pilar Paneque Salgado (Directora de la Agencia Nacional de Evaluación de la Calidad y Acreditación — Catedrática de Geografía Humana de la Universidad Pablo de Olavide)  
 
 <details>
 <summary><b>Ver descripción</b></summary>
 
-En el contexto actual, la evaluación de las carreras académicas supone un reto de enorme relevancia sobre el que merece la pena reflexionar. Por ello, Humans on Air cierra el curso académico 2025/26 con una charla de Pilar Paneque Salgado, directora de la ANECA. Bajo el título “La evaluación de las carreras académicas en el contexto actual”, la charla abordará claves e ideas sobre nuevos modelos de evaluación.
+En el contexto actual, la evaluación de las carreras académicas supone un reto de enorme relevancia sobre el que merece la pena reflexionar. Por ello, Humans on Air cierra el curso académico 2025/26 con una charla de Pilar Paneque Salgado, directora de la ANECA. Bajo el título "La evaluación de las carreras académicas en el contexto actual", la charla abordará claves e ideas sobre nuevos modelos de evaluación.
 
 </details>
 
+</div>
+</div>
+
 ---
 
-
-
----
+<div class="event-card">
+<div class="event-details" markdown="1">
 
 ### ¿Tiene sexo la tecnología? Reflexiones sobre percepciones, atribuciones y sesgos desde la prehistoria  
 **Fecha:** 7 de abril de 2026  
@@ -39,15 +44,21 @@ En el contexto actual, la evaluación de las carreras académicas supone un reto
 
 Preguntarse si tiene sexo la tecnología no es algo trivial en un mundo en el que marca prioridades, presupuestos y agenda. Indagar en cómo mujeres y hombres se han relacionado históricamente con la tecnología o cómo se han percibido ante ella es vital para entender la supuesta distancia entre las mujeres y lo tecnológico. Para poder identificar o analizar posibles prejuicios debemos cuestionarnos el propio concepto de tecnología y reexaminar la cultura material de las sociedades del pasado.
 
-</details>  
+</details>
 
-[Ver grabación](https://youtube.com/watch?v=tCKSowair2Y){: .btn .btn--inverse} 
+[Ver grabación](https://youtube.com/watch?v=tCKSowair2Y){: .btn .btn--inverse}
+
+</div>
+</div>
 
 ---
 
 ## 2025
 
 ---
+
+<div class="event-card">
+<div class="event-details" markdown="1">
 
 ### The AI Evaluator? Large Language Models and the Future of Research Assessment  
 **Fecha:** 11 de junio de 2025  
@@ -59,11 +70,17 @@ Preguntarse si tiene sexo la tecnología no es algo trivial en un mundo en el qu
 
 Evaluar la calidad de las publicaciones académicas es una tarea lenta que requiere expertos. Hasta hace poco, los principales indicadores cuantitativos eran las citas. Ahora hay evidencia de que las puntuaciones de los grandes modelos de lenguaje se asocian más fuertemente con la calidad de la investigación. Esta charla revisa la evidencia existente y plantea cómo y si es posible utilizar los LLMs para apoyar evaluaciones de investigación.
 
-</details>  
+</details>
 
-[Ver grabación](https://youtube.com/watch?v=lBQe968sI4k){: .btn .btn--inverse} 
+[Ver grabación](https://youtube.com/watch?v=lBQe968sI4k){: .btn .btn--inverse}
+
+</div>
+</div>
 
 ---
+
+<div class="event-card">
+<div class="event-details" markdown="1">
 
 ### Language Professions in the Era of Artificial Intelligence: The Wind of Change is Blowing  
 **Fecha:** 4 de junio de 2025  
@@ -75,11 +92,17 @@ Evaluar la calidad de las publicaciones académicas es una tarea lenta que requi
 
 Esta charla arroja luz sobre el futuro de las profesiones lingüísticas en la era de la IA. Partiendo de la historia del PLN y la traducción automática, y pasando por el Deep Learning hasta los grandes modelos de lenguaje, el ponente ofrece predicciones informadas sobre cómo puede evolucionar la inteligencia artificial en relación con la inteligencia humana.
 
-</details>  
+</details>
 
-[Ver grabación](https://youtube.com/watch?v=n2ZqBmMJ4o0){: .btn .btn--inverse} 
+[Ver grabación](https://youtube.com/watch?v=n2ZqBmMJ4o0){: .btn .btn--inverse}
+
+</div>
+</div>
 
 ---
+
+<div class="event-card">
+<div class="event-details" markdown="1">
 
 ### Managing uncertainties of generative AI translation  
 **Fecha:** 7 de mayo de 2025  
@@ -91,11 +114,17 @@ Esta charla arroja luz sobre el futuro de las profesiones lingüísticas en la e
 
 La mayor parte de los aspectos de la IA generativa están aún sujetos a una considerable incertidumbre. Esta charla explora varios modelos de gestión de la incertidumbre y los relaciona con la investigación sobre traducciones automatizadas de mensajes de crisis, proponiendo formas de trabajar con la IA generativa y las tareas lingüísticas para las que seguiremos necesitando profesionales formados.
 
-</details>  
+</details>
 
-[Ver grabación](https://youtube.com/watch?v=cDgKdZg09yA){: .btn .btn--inverse} 
+[Ver grabación](https://youtube.com/watch?v=cDgKdZg09yA){: .btn .btn--inverse}
+
+</div>
+</div>
 
 ---
+
+<div class="event-card">
+<div class="event-details" markdown="1">
 
 ### Las tecnologías del lenguaje: retos y oportunidades  
 **Fecha:** 30 de abril de 2025  
@@ -107,11 +136,17 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 
 ¿Cuál es la importancia de los estudios del lenguaje hoy? ¿Cuáles son los retos, riesgos y oportunidades asociados al uso generalizado de los grandes modelos de lenguaje y otras tecnologías lingüísticas? Elena Álvarez Mellado y Zoraida Callejas Carrión abordan estas cuestiones en la intersección entre lenguaje, habla y tecnología.
 
-</details>  
+</details>
 
-[Ver grabación](https://youtube.com/watch?v=GZN0GkwODwo){: .btn .btn--inverse} 
+[Ver grabación](https://youtube.com/watch?v=GZN0GkwODwo){: .btn .btn--inverse}
+
+</div>
+</div>
 
 ---
+
+<div class="event-card">
+<div class="event-details" markdown="1">
 
 ### Translation in the age of AI  
 **Fecha:** 19 de marzo de 2025  
@@ -123,6 +158,9 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 
 Lynne Bowker, profesora de traducción, tecnologías y sociedad en la Universidad Laval (Quebec), aborda el impacto de la proliferación de herramientas y la popularización de la inteligencia artificial en el ámbito y la profesión de la traducción.
 
-</details>  
+</details>
+
+</div>
+</div>
 
 ---
