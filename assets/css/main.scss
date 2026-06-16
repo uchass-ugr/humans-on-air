@@ -30,6 +30,12 @@ $link-color-hover: darken($primary-color, 15%);
 $masthead-link-color: $dark-color;
 $masthead-link-color-hover: $primary-color;
 
-// 5. Import the rest of the Minimal Mistakes styles
+// 5. Ocultar título y tagline del hero overlay (ya van en la imagen)
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  display: none;
+}
+
+// 6. Import the rest of the Minimal Mistakes styles
 @import "minimal-mistakes/skins/default"; 
 @import "minimal-mistakes";
