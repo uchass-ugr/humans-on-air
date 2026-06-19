@@ -12,6 +12,9 @@ author_profile: false
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/pilar-paneque.jpeg' | relative_url }}" alt="Pilar Paneque Salgado" style="width:200px; display:block;">
+</div>
 <div class="card-text" markdown="1">
 ### La evaluación de las carreras académicas en el contexto actual  
 **Fecha:** 15 de junio de 2026, 12:00h  

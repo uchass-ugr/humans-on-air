@@ -42,6 +42,10 @@ En este taller introducimos el concepto de IA Generativa, presentando sus princi
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/talleres/miguel-moreno.jpeg' | relative_url }}" alt="Taller Miguel Moreno Muñoz" style="width:200px; display:block;">
+<a href="https://www.ugr.es/~mm3/apps/index.html" class="btn btn--inverse" style="margin-top:0.6em; display:inline-block;">Materiales</a>
+</div>
 <div class="card-text" markdown="1">
 ### Modelos de lenguaje como agentes colaboradores en revisión bibliográfica, gestión terminológica y evaluación de la calidad en Traducción  
 **Fecha:** 28 de abril de 2026  
