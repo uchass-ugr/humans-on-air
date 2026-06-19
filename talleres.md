@@ -7,7 +7,7 @@ toc_label: "Por año"
 author_profile: false
 ---
 
-## Próximos
+## 2026
 
 ---
 
@@ -23,8 +23,6 @@ author_profile: false
 **Ponentes:** Benamí Barros García, Nicolás Robinson-García y Elvira González-Salmón (U^CHASS, Universidad de Granada)  
 **Dirigido a:** Público general. Sin requisitos técnicos previos.
 
-**Inscripción a través del Punto Vuela de Quéntar.**
-
 <details>
 <summary><b>Ver descripción</b></summary>
 
@@ -34,10 +32,6 @@ En este taller introducimos el concepto de IA Generativa, presentando sus princi
 
 </div>
 </div>
-
----
-
-## 2026
 
 ---
 
@@ -60,4 +54,11 @@ Los modelos de lenguaje de última generación han dejado de ser simples asisten
 
 Este taller combina una introducción conceptual mínima con una dinámica esencialmente práctica. Cada participante trabajará directamente con material prediseñado en tres bloques temáticos: revisión y gestión bibliográfica (cribado, auditoría de ficheros .bib, fichas de lectura automatizadas), anotación terminológica asistida (etiquetado con taxonomías predefinidas, relaciones semánticas, salida estructurada) y evaluación de calidad en traducción (aplicación de la rúbrica MQM, detección de fenómenos culturales, hojas de trabajo pretraductivas).
 
-Cada ejercicio se presenta en dos modalidades: prompts listos para copiar en Claude.ai, Perplexity u otros —sin instalación, solo navegador— y scripts R/RStudio para quienes prefieran procesam
+Cada ejercicio se presenta en dos modalidades: prompts listos para copiar en Claude.ai, Perplexity u otros —sin instalación, solo navegador— y scripts R/RStudio para quienes prefieran procesamiento local y automatizable.
+
+</details>
+
+</div>
+</div>
+
+---
