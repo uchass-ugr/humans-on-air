@@ -12,8 +12,7 @@ author_profile: false
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### La evaluación de las carreras académicas en el contexto actual  
 **Fecha:** 15 de junio de 2026, 12:00h  
 **Lugar:** Sala Triunfo, Complejo administrativo Triunfo (Av. Hospicio s/n), Universidad de Granada  
@@ -32,8 +31,7 @@ En el contexto actual, la evaluación de las carreras académicas supone un reto
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### ¿Tiene sexo la tecnología? Reflexiones sobre percepciones, atribuciones y sesgos desde la prehistoria  
 **Fecha:** 7 de abril de 2026  
 **Lugar:** Salón de Grados, Facultad de Traducción e Interpretación (Universidad de Granada)  
@@ -58,8 +56,7 @@ Preguntarse si tiene sexo la tecnología no es algo trivial en un mundo en el qu
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### The AI Evaluator? Large Language Models and the Future of Research Assessment  
 **Fecha:** 11 de junio de 2025  
 **Lugar:** Sala de Conferencias, Facultad de Traducción e Interpretación (Universidad de Granada)  
@@ -80,8 +77,7 @@ Evaluar la calidad de las publicaciones académicas es una tarea lenta que requi
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### Language Professions in the Era of Artificial Intelligence: The Wind of Change is Blowing  
 **Fecha:** 4 de junio de 2025  
 **Lugar:** Aula Magna, Escuela Técnica Superior de Arquitectura (ETSAG, Universidad de Granada)  
@@ -102,8 +98,7 @@ Esta charla arroja luz sobre el futuro de las profesiones lingüísticas en la e
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### Managing uncertainties of generative AI translation  
 **Fecha:** 7 de mayo de 2025  
 **Lugar:** Sala de Conferencias, Facultad de Traducción e Interpretación (Universidad de Granada)  
@@ -124,8 +119,7 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### Las tecnologías del lenguaje: retos y oportunidades  
 **Fecha:** 30 de abril de 2025  
 **Lugar:** Salón de Grados, Facultad de Traducción e Interpretación (Universidad de Granada)  
@@ -146,6 +140,5 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
-
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### Tran

@@ -14,11 +14,9 @@ author_profile: false
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
 <div style="flex:0 0 200px;">
 <img src="{{ '/assets/images/talleres/taller-ia-2026.jpg' | relative_url }}" alt="Taller IA Generativa" style="width:200px; display:block;">
-<div style="margin-top:0.6em; font-size:0.85em; line-height:1.8;">
-<a href="https://doi.org/10.5281/zenodo.20745942">📄 Materiales</a>
+<a href="https://doi.org/10.5281/zenodo.20745942" class="btn btn--inverse" style="margin-top:0.6em; display:inline-block;">Materiales</a>
 </div>
-</div>
-<div style="flex:1; min-width:0;" markdown="1">
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 ### Taller de IA: Guía de buenas prácticas para la iniciación en el uso de la IA Generativa  
 **Fecha:** 19 de junio de 2026, 10:30–12:30h  
 **Lugar:** Punto Vuela de Quéntar, C/ San Sebastián 1, Quéntar, Granada  
@@ -44,7 +42,7 @@ En este taller introducimos el concepto de IA Generativa, presentando sus princi
 ---
 
 <div style="display:flex; gap:1.5em; align-items:flex-start; margin-bottom:1.5em;">
-<div style="flex:1; min-width:0;" markdown="1">
+<div class="card-text" style="flex:1; min-width:0;" markdown="1">
 
 ### Modelos de lenguaje como agentes colaboradores en revisión bibliográfica, gestión terminológica y evaluación de la calidad en Traducción  
 **Fecha:** 28 de abril de 2026  

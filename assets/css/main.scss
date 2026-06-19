@@ -108,6 +108,11 @@ $masthead-link-color-hover: $primary-color;
   }
 }
 
-// 8. Import the rest of the Minimal Mistakes styles
+// 8. Suprimir margen superior en el primer elemento de tarjetas
+.card-text > *:first-child {
+  margin-top: 0 !important;
+}
+
+// 9. Import the rest of the Minimal Mistakes styles
 @import "minimal-mistakes/skins/default"; 
 @import "minimal-mistakes";
