@@ -139,9 +139,3 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 
 </div>
 </div>
-
----
-
-<div class="card">
-<div class="card-text" markdown="1">
-### Tran
