@@ -13,6 +13,29 @@ author_profile: false
 
 <div class="card">
 <div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/talleres/TALLER_IA_9JULIO.png' | relative_url }}" alt="Taller IA Generativa para adultos" style="width:200px; display:block;">
+</div>
+<div class="card-text" markdown="1">
+### Taller de IA: Uso práctico de la IA Generativa para adultos  
+**Fecha:** 9 de julio de 2026, 11:00–13:00h  
+**Lugar:** Punto Vuela de Quéntar, C/ San Sebastián 1, Quéntar, Granada  
+**Ponentes:** Benamí Barros García, Nicolás Robinson-García y Elvira González-Salmón (U^CHASS, Universidad de Granada)  
+**Dirigido a:** Público general. Sin requisitos técnicos previos.
+
+<details>
+<summary><b>Ver descripción</b></summary>
+
+Taller práctico en el que veremos en vivo cómo funcionan distintos chatbots conversacionales, específicamente Gemini y Claude. Mediante ejemplos prácticos, practicaremos diferentes técnicas de prompting para aprender a hacer un uso responsable de estas herramientas.
+
+</details>
+
+</div>
+</div>
+
+---
+
+<div class="card">
+<div style="flex:0 0 200px;">
 <img src="{{ '/assets/images/talleres/taller-ia-2026.jpg' | relative_url }}" alt="Taller IA Generativa" style="width:200px; display:block;">
 <a href="https://doi.org/10.5281/zenodo.20745942" class="btn btn--inverse" style="margin-top:0.6em; display:inline-block;">Materiales</a>
 </div>
