@@ -19,7 +19,7 @@ author_profile: false
 ### Taller de IA: Uso práctico de la IA Generativa para adultos  
 **Fecha:** 9 de julio de 2026, 11:00–13:00h  
 **Lugar:** Punto Vuela de Quéntar, C/ San Sebastián 1, Quéntar, Granada  
-**Ponentes:** Benamí Barros García, Nicolás Robinson-García y Elvira González-Salmón (U^CHASS, Universidad de Granada)  
+**Ponentes:** Benamí Barros García y Nicolás Robinson-García (U^CHASS, Universidad de Granada)  
 **Dirigido a:** Público general. Sin requisitos técnicos previos.
 
 <details>
