@@ -253,7 +253,7 @@ body {
   }
 }
 
-//Diseño responsive
+// Diseño responsive
 @media (max-width: 900px) {
   .layout--archive .archive,
   .layout--single .page {
@@ -278,8 +278,8 @@ body {
   }
 }
 
-//Responsive-> pagina equipos
-  {
+// Responsive -> página equipo
+@media (max-width: 850px) {
   .team-featured-card,
   .team-card {
     grid-template-columns: 1fr;
