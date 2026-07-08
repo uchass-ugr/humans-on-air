@@ -9,7 +9,7 @@ author_profile: false
   <div class="home-hero__image"></div>
 
   <div class="home-hero__content">
-    <h1>Humanidades,<br>lenguaje e <span>IA</span></h1>
+    <h1>Humans<br>on <span>AIr</span></h1>
     <p>
       Reflexiones críticas sobre el impacto de la inteligencia artificial
       en la cultura, la comunicación y la sociedad.
@@ -19,7 +19,7 @@ author_profile: false
       <a href="{{ '/charlas/' | relative_url }}" class="home-button home-button--primary">
         Ver charlas →
       </a>
-      <a href="{{ '/sobre-el-proyecto/' | relative_url }}" class="home-button home-button--secondary">
+      <a href="{{ '/sobre/' | relative_url }}" class="home-button home-button--secondary">
         Sobre el proyecto →
       </a>
     </div>
