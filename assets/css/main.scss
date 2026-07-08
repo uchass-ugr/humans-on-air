@@ -274,7 +274,11 @@ body {
 
 .home-hero {
   position: relative;
-  min-height: clamp(360px, 45vw, 520px);
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  min-height: clamp(360px, 45vw, 620px);
   display: flex;
   align-items: flex-end;
   overflow: hidden;
@@ -293,7 +297,7 @@ body {
       rgba(30, 42, 68, 0.05) 100%
     ),
     url("/humans-on-air/assets/images/banner2.png");
-  background-size: contain;
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
   filter: grayscale(100%) contrast(1.08);
