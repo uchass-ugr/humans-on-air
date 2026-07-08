@@ -29,13 +29,21 @@ $link-color-hover: $primary-color;
 $masthead-link-color:       $dark-color;
 $masthead-link-color-hover: $secondary-color;
 
-// 2.1 Menu fijo
-
+// 2.1.Menú fijo arriba
 .masthead {
-  position: sticky;
+  position: fixed !important;
   top: 0;
-  z-index: 9999;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  width: 100%;
   background: #eee7dc;
+  border-bottom: 1px solid rgba(30, 42, 68, 0.15);
+}
+
+// Evita que el contenido quede escondido debajo del menú
+body {
+  padding-top: 92px;
 }
 
 // 3. Hero overlay
