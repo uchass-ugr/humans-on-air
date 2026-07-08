@@ -151,3 +151,25 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 
 </div>
 </div>
+
+---
+
+<div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/Lynne-Bowker.png' | relative_url }}" alt="Lynne Bowker" style="width:200px; display:block;">
+</div>
+<div class="card-text" markdown="1">
+### Translation in the age of AI  
+**Fecha:** 19 de marzo de 2025  
+**Lugar:** Sala de Conferencias, Facultad de Traducción e Interpretación (Universidad de Granada)  
+**Ponente:** Lynne Bowker (Laval University, Quebec)  
+
+<details>
+<summary><b>Ver descripción</b></summary>
+
+El ciclo de charlas “Humans on AIr” comienza con Lynne Bowker, profesora de la Universidad Laval y especialista en traducción, tecnologías del lenguaje y comunicación científica. En su intervención, aborda cómo la expansión de la inteligencia artificial transforma la práctica y la profesión de la traducción.
+</details>
+
+
+</div>
+</div>
