@@ -60,34 +60,40 @@ $masthead-link-color-hover: $primary-color;
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-// Ajuste suave del layout sin romper el ancho
-#main {
-  max-width: 1280px;
+// 6. Quitar columna izquierda fantasma de Minimal Mistakes
+.layout--archive #main,
+.layout--single #main {
+  max-width: 1360px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   box-sizing: border-box;
 }
 
-// Evita scroll horizontal
+// Contenido principal más a la izquierda
+.layout--archive .archive,
+.layout--single .page {
+  float: left;
+  width: calc(100% - 320px);
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+// Sidebar derecha "Por año"
+.layout--archive .sidebar,
+.layout--single .sidebar,
+.sidebar__right {
+  float: right;
+  width: 280px;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+// Evitar scroll horizontal
 html,
 body {
   overflow-x: hidden;
-}
-
-// Página con sidebar: reduce el hueco central sin forzar anchuras raras
-.layout--archive .page,
-.layout--single .page {
-  padding-left: 0;
-}
-
-// Mantiene el contenido dentro de su columna
-.page,
-.page__inner-wrap,
-.page__content {
-  box-sizing: border-box;
-  max-width: 100%;
 }
 
 .card {
@@ -98,8 +104,8 @@ body {
 }
 
 .card img {
-  width: 180px;
-  max-width: 180px;
+  width: 220px;
+  max-width: 220px;
   height: auto;
   flex-shrink: 0;
 }
