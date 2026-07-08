@@ -60,50 +60,34 @@ $masthead-link-color-hover: $primary-color;
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-// 6. Reducir margen izquierdo sin provocar scroll horizontal
+// Ajuste suave del layout sin romper el ancho
 #main {
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  box-sizing: border-box;
-}
-
-.layout--single .page {
-  float: none;
-  width: auto;
-  max-width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  box-sizing: border-box;
-}
-
-.layout--single .page__inner-wrap {
-  max-width: calc(100vw - 4rem);
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   box-sizing: border-box;
 }
 
-// Evita que imágenes o tarjetas fuercen scroll horizontal
-img,
-.card,
-.archive__item,
+// Evita scroll horizontal
+html,
+body {
+  overflow-x: hidden;
+}
+
+// Página con sidebar: reduce el hueco central sin forzar anchuras raras
+.layout--archive .page,
+.layout--single .page {
+  padding-left: 0;
+}
+
+// Mantiene el contenido dentro de su columna
+.page,
+.page__inner-wrap,
 .page__content {
+  box-sizing: border-box;
   max-width: 100%;
-  box-sizing: border-box;
-}
-
-.sidebar {
-  max-width: 260px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 1024px) {
-  .sidebar {
-    display: none;
-  }
 }
 
 .card {
@@ -111,12 +95,11 @@ img,
   gap: 1.5em;
   align-items: flex-start;
   margin-bottom: 1.5em;
-  max-width: 100%;
 }
 
 .card img {
-  width: 220px;
-  max-width: 35%;
+  width: 180px;
+  max-width: 180px;
   height: auto;
   flex-shrink: 0;
 }
@@ -124,4 +107,8 @@ img,
 .card-text {
   flex: 1;
   min-width: 0;
+
+  > *:first-child {
+    margin-top: 0 !important;
+  }
 }
