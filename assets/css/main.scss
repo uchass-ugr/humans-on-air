@@ -278,6 +278,7 @@ body {
   max-width: none;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  aspect-ratio: 16 / 6; 
   min-height: clamp(360px, 45vw, 620px);
   display: flex;
   align-items: flex-end;
