@@ -252,3 +252,46 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+//Diseño responsive
+@media (max-width: 900px) {
+  .layout--archive .archive,
+  .layout--single .page {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .layout--archive .sidebar,
+  .layout--single .sidebar,
+  .sidebar__right {
+    display: none;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+//Responsive-> pagina equipos
+  {
+  .team-featured-card,
+  .team-card {
+    grid-template-columns: 1fr;
+  }
+
+  .team-featured-card img,
+  .team-card img {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
