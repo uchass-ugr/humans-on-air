@@ -40,6 +40,10 @@ $masthead-link-color-hover: $secondary-color;
   background: #eee7dc;
   border-bottom: 1px solid rgba(30, 42, 68, 0.15);
 }
+.masthead__inner-wrap,
+.greedy-nav {
+  background: #eee7dc;
+}
 
 // Evita que el contenido quede escondido debajo del menú
 body {
@@ -312,4 +316,24 @@ body {
   .team-grid {
     grid-template-columns: 1fr;
   }
-}
+  }
+
+.masthead {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 99999 !important;
+  }
+
+  .masthead__inner-wrap,
+  .greedy-nav {
+    background: #eee7dc;
+  }
+
+  body {
+    padding-top: 76px;
+  }
+
+  .greedy-nav .visible-links,
+  .greedy-nav .hidden-links {
+    background: #eee7dc;
+  }
