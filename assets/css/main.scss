@@ -60,22 +60,37 @@ $masthead-link-color-hover: $primary-color;
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
 
-// 6. Layout más ancho y menos desplazado a la derecha
+// 6. Reducir margen izquierdo sin provocar scroll horizontal
 #main {
-  max-width: 1280px;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
   padding-left: 2rem;
   padding-right: 2rem;
+  box-sizing: border-box;
 }
 
 .layout--single .page {
   float: none;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   padding-left: 0;
   padding-right: 0;
+  box-sizing: border-box;
 }
 
 .layout--single .page__inner-wrap {
-  max-width: 1180px;
+  max-width: calc(100vw - 4rem);
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+}
+
+// Evita que imágenes o tarjetas fuercen scroll horizontal
+img,
+.card,
+.archive__item,
+.page__content {
+  max-width: 100%;
+  box-sizing: border-box;
 }
