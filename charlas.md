@@ -34,6 +34,9 @@ En el contexto actual, la evaluación de las carreras académicas supone un reto
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/Magda-Sanchez.png' | relative_url }}" alt="Magda Sánchez" style="width:200px; display:block;">
+</div>
 <div class="card-text" markdown="1">
 ### ¿Tiene sexo la tecnología? Reflexiones sobre percepciones, atribuciones y sesgos desde la prehistoria  
 **Fecha:** 7 de abril de 2026  
