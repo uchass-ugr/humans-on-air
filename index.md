@@ -9,7 +9,7 @@ author_profile: false
   <div class="home-hero__image"></div>
 
   <div class="home-hero__content">
-    <h1>Humanidades,<br>lenguaje e <span>IA</span></h1>
+    <h1>Humans,<br> on <span>AIr</span></h1>
     <p>
       Reflexiones críticas sobre el impacto de la inteligencia artificial
       en la cultura, la comunicación y la sociedad.
@@ -60,19 +60,19 @@ author_profile: false
 
   <article class="home-event-card">
     <div class="home-event-date">
-      <span>JUN</span>
-      <strong>15</strong>
-      <small>LUNES</small>
+      <span>JUL</span>
+      <strong>09</strong>
+      <small>JUEVES</small>
     </div>
 
     <div class="home-event-info">
-      <p class="home-event-type">CHARLA</p>
-      <h3>La evaluación de las carreras académicas en el contexto actual</h3>
-      <p>Pilar Paneque Salgado · Universidad de Granada</p>
-      <p class="home-event-meta">15 de junio de 2026 · 12:00 h · Sala Triunfo</p>
+      <p class="home-event-type">TALLER</p>
+      <h3>Taller de IA: Uso práctico de la IA Generativa para adultos</h3>
+      <p>Benamí Barros García y Nicolás Robinson-García · U^CHASS (Universidad de Granada)</p>
+      <p class="home-event-meta">9 de julio de 2026 · 11:00 h · Punto Vuela de Quéntar</p>
     </div>
 
-    <a href="{{ '/charlas/' | relative_url }}" class="home-event-link">
+    <a href="{{ '/talleres/' | relative_url }}" class="home-event-link">
       Más información →
     </a>
   </article>
