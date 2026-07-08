@@ -59,3 +59,23 @@ $masthead-link-color-hover: $primary-color;
 // 5. Minimal Mistakes
 @import "minimal-mistakes/skins/default";
 @import "minimal-mistakes";
+
+// 6. Layout más ancho y menos desplazado a la derecha
+#main {
+  max-width: 1280px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.layout--single .page {
+  float: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.layout--single .page__inner-wrap {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
