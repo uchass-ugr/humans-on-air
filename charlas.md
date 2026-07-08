@@ -59,6 +59,9 @@ Preguntarse si tiene sexo la tecnología no es algo trivial en un mundo en el qu
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/Mike-Thelwall.png' | relative_url }}" alt="Mike Thelwall" style="width:200px; display:block;">
+</div>
 <div class="card-text" markdown="1">
 ### The AI Evaluator? Large Language Models and the Future of Research Assessment  
 **Fecha:** 11 de junio de 2025  
