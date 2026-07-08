@@ -276,7 +276,7 @@ body {
   position: relative;
   min-height: clamp(360px, 45vw, 520px);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   overflow: hidden;
   background: #1e2a44;
 }
@@ -293,7 +293,7 @@ body {
       rgba(30, 42, 68, 0.05) 100%
     ),
     url("/humans-on-air/assets/images/banner2.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   filter: grayscale(100%) contrast(1.08);
