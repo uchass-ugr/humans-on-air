@@ -278,7 +278,7 @@ body {
   max-width: none;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  aspect-ratio: 16 / 4.7; 
+  aspect-ratio: 16 / 5; 
   min-height: 0;
   display: flex;
   align-items: flex-end;
@@ -299,7 +299,7 @@ body {
     ),
     url("/humans-on-air/assets/images/banner2.png");
   background-size: cover;
-  background-position: center 30%;
+  background-position: center 25%;
   background-repeat: no-repeat;
   filter: grayscale(100%) contrast(1.08);
 }
