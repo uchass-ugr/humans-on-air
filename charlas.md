@@ -83,6 +83,9 @@ Evaluar la calidad de las publicaciones académicas es una tarea lenta que requi
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/Ruslan-Mitkov.png' | relative_url }}" alt="Ruslan Mitkov" style="width:200px; display:block;">
+</div>
 <div class="card-text" markdown="1">
 ### Language Professions in the Era of Artificial Intelligence: The Wind of Change is Blowing  
 **Fecha:** 4 de junio de 2025  
@@ -104,6 +107,9 @@ Esta charla arroja luz sobre el futuro de las profesiones lingüísticas en la e
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/Anthony-Pym.png' | relative_url }}" alt="Anthony Pym" style="width:200px; display:block;">
+</div>
 <div class="card-text" markdown="1">
 ### Managing uncertainties of generative AI translation  
 **Fecha:** 7 de mayo de 2025  
@@ -125,6 +131,9 @@ La mayor parte de los aspectos de la IA generativa están aún sujetos a una con
 ---
 
 <div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/charlas/ElenaA-ZoraidaC.png' | relative_url }}" alt="Elena Álvarez y Zoraida Callejas" style="width:200px; display:block;">
+</div>
 <div class="card-text" markdown="1">
 ### Las tecnologías del lenguaje: retos y oportunidades  
 **Fecha:** 30 de abril de 2025  
