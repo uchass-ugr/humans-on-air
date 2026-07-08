@@ -19,7 +19,7 @@ author_profile: false
       <a href="{{ '/charlas/' | relative_url }}" class="home-button home-button--primary">
         Ver charlas →
       </a>
-      <a href="{{ '/sobre/' | relative_url }}" class="home-button home-button--secondary">
+      <a href="{{ '/sobre-el-proyecto/' | relative_url }}" class="home-button home-button--secondary">
         Sobre el proyecto →
       </a>
     </div>
