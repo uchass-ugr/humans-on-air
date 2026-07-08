@@ -29,6 +29,15 @@ $link-color-hover: $primary-color;
 $masthead-link-color:       $dark-color;
 $masthead-link-color-hover: $secondary-color;
 
+// 2.1 Menu fijo
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: #eee7dc;
+}
+
 // 3. Hero overlay
 .page__hero--overlay {
   min-height: 370px;
