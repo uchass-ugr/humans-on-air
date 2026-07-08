@@ -4,110 +4,89 @@ title: "Equipo"
 permalink: /equipo/
 author_profile: false
 ---
+#Investigador principal 
 
-## Investigador principal
+<section class="team-section team-lead">
+  <h2>Investigador principal</h2>
 
----
+  <article class="team-featured-card">
+    <img src="{{ '/assets/images/equipo/benami-barros.jpg' | relative_url }}" alt="Benamí Barros García">
 
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/benami-barros.jpg' | relative_url }}" alt="Benamí Barros García" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Benamí Barros García  
-**Cargo:** Investigador principal  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://uchass.ugr.es/miembro/benami-barros-garcia/)
+    <div>
+      <p class="team-role">Investigador principal</p>
+      <h3>Benamí Barros García</h3>
+      <p>Universidad de Granada</p>
+      <a href="#">Perfil institucional</a>
+    </div>
+  </article>
+</section>
 
-</div>
-</div>
+#Investigadores 
 
----
+<section class="team-section">
+  <h2>Investigadores/as</h2>
 
-## Investigadores/as
+  <div class="team-grid">
 
----
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/nicolas-robinson.jpg' | relative_url }}" alt="Nicolas Robinson-Garcia">
+      <div class="team-card-content">
+        <p class="team-role">Investigador</p>
+        <h3>Nicolas Robinson-Garcia</h3>
+        <p><strong>Institución:</strong> Universidad de Granada</p>
+        <a href="https://uchass.ugr.es/miembro/nicolas-robinson-garcia/">Perfil institucional</a>
+      </div>
+    </article>
 
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/nicolas-robinson.jpg' | relative_url }}" alt="Nicolas Robinson-Garcia" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Nicolas Robinson-Garcia  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://uchass.ugr.es/miembro/nicolas-robinson-garcia/)
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/zoraida-callejas.jpg' | relative_url }}" alt="Zoraida Callejas Carrión">
+      <div class="team-card-content">
+        <p class="team-role">Investigadora</p>
+        <h3>Zoraida Callejas Carrión</h3>
+        <p><strong>Institución:</strong> Universidad de Granada</p>
+        <a href="https://directorio.ugr.es/static/PersonalUGR/*/show/35bd28aa8c60381c4f343e1605fd5ad7/">Perfil institucional</a>
+      </div>
+    </article>
 
-</div>
-</div>
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/pilar-leon.jpg' | relative_url }}" alt="Pilar León Araúz">
+      <div class="team-card-content">
+        <p class="team-role">Investigadora</p>
+        <h3>Pilar León Araúz</h3>
+        <p><strong>Institución:</strong> Universidad de Granada</p>
+        <a href="https://uchass.ugr.es/miembro/pilar-leon-arauz/">Perfil institucional</a>
+      </div>
+    </article>
 
----
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/elvira-gonzalez.jpg' | relative_url }}" alt="Elvira González Salmón">
+      <div class="team-card-content">
+        <p class="team-role">Investigadora</p>
+        <h3>Elvira González Salmón</h3>
+        <p><strong>Institución:</strong> Universidad de Granada</p>
+        <a href="https://uchass.ugr.es/miembro/elvira-m-gonzalez-salmon/">Perfil institucional</a>
+      </div>
+    </article>
 
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/zoraida-callejas.jpg' | relative_url }}" alt="Zoraida Callejas Carrión" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Zoraida Callejas Carrión  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://directorio.ugr.es/static/PersonalUGR/*/show/35bd28aa8c60381c4f343e1605fd5ad7/)
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/sergio-castro.jpg' | relative_url }}" alt="Sergio Castro Cortacero">
+      <div class="team-card-content">
+        <p class="team-role">Investigador</p>
+        <h3>Sergio Castro Cortacero</h3>
+        <p><strong>Institución:</strong> Universidad de Granada</p>
+        <a href="https://uchass.ugr.es/miembro/sergio-castro-cortacero/">Perfil institucional</a>
+      </div>
+    </article>
 
-</div>
-</div>
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/ines-gonzalez.jpg' | relative_url }}" alt="Inés de los Ángeles González Hidalgo">
+      <div class="team-card-content">
+        <p class="team-role">Investigadora</p>
+        <h3>Inés de los Ángeles González Hidalgo</h3>
+        <p><strong>Institución:</strong> Universidad de Granada</p>
+        <a href="https://uchass.ugr.es/miembro/ines-de-los-angeles-gonzalez-hidalgo/">Perfil institucional</a>
+      </div>
+    </article>
 
----
-
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/pilar-leon.jpg' | relative_url }}" alt="Pilar León Araúz" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Pilar León Araúz  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://uchass.ugr.es/miembro/pilar-leon-arauz/)
-
-</div>
-</div>
-
----
-
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/elvira-gonzalez.jpg' | relative_url }}" alt="Elvira González Salmón" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Elvira González Salmón  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://uchass.ugr.es/miembro/elvira-m-gonzalez-salmon/)
-
-</div>
-</div>
-
----
-
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/sergio-castro.jpg' | relative_url }}" alt="Sergio Castro Cortacero" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Sergio Castro Cortacero  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://uchass.ugr.es/miembro/sergio-castro-cortacero/)
-
-</div>
-</div>
-
----
-
-<div class="card">
-<div style="flex:0 0 140px;">
-<img src="{{ '/assets/images/equipo/ines-gonzalez.jpg' | relative_url }}" alt="Inés de los Ángeles González Hidalgo" style="width:140px; height:140px; object-fit:cover; object-position:top; border-radius:4px; display:block;">
-</div>
-<div class="card-text" markdown="1">
-### Inés de los Ángeles González Hidalgo  
-**Institución:** Universidad de Granada  
-**Web:** [perfil institucional](https://uchass.ugr.es/miembro/ines-de-los-angeles-gonzalez-hidalgo/)
-
-</div>
-</div>
-
----
+  </div>
+</section>
