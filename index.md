@@ -26,6 +26,17 @@ author_profile: false
   </div>
 </section>
 
+<section class="home-events"> 
+  <h2>Próximas actividades</h2> 
+  <div class="home-events-empty"> 
+    <p>Actualmente no hay próximas actividades programadas.</p> 
+    
+    <a href="{{ '/talleres/' | relative_url }}" class="home-event-link"> 
+    Ver talleres realizados → 
+    </a> 
+  </div> 
+</section>
+
 <section class="home-cards">
   <article class="home-card">
     <div class="home-card__icon">🎙</div>
@@ -53,15 +64,4 @@ author_profile: false
       <a href="{{ '/equipo/' | relative_url }}">Conocer equipo →</a>
     </div>
   </article>
-</section>
-
-<section class="home-events"> 
-  <h2>Próximas actividades</h2> 
-  <div class="home-events-empty"> 
-    <p>Actualmente no hay próximas actividades programadas.</p> 
-    
-    <a href="{{ '/talleres/' | relative_url }}" class="home-event-link"> 
-    Ver talleres realizados → 
-    </a> 
-  </div> 
 </section>
