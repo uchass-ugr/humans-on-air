@@ -14,6 +14,7 @@ author_profile: false
 <div class="card">
 <div style="flex:0 0 200px;">
 <img src="{{ '/assets/images/talleres/TALLER_IA_9JULIO.png' | relative_url }}" alt="Taller IA Generativa para adultos" style="width:200px; display:block;">
+<a href="https://doi.org/10.5281/zenodo.20745942" class="btn btn--inverse" style="margin-top:0.6em; display:inline-block;">Materiales</a>
 </div>
 <div class="card-text" markdown="1">
 ### Taller de IA: Uso práctico de la IA Generativa para adultos  
