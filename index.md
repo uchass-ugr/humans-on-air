@@ -55,25 +55,13 @@ author_profile: false
   </article>
 </section>
 
-<section class="home-events">
-  <h2>Próximas actividades</h2>
-
-  <article class="home-event-card">
-    <div class="home-event-date">
-      <span>JUL</span>
-      <strong>09</strong>
-      <small>JUEVES</small>
-    </div>
-
-    <div class="home-event-info">
-      <p class="home-event-type">TALLER</p>
-      <h3>Taller de IA: Uso práctico de la IA Generativa para adultos</h3>
-      <p>Benamí Barros García y Nicolás Robinson-García · U^CHASS (Universidad de Granada)</p>
-      <p class="home-event-meta">9 de julio de 2026 · 11:00 h · Punto Vuela de Quéntar</p>
-    </div>
-
-    <a href="{{ '/talleres/' | relative_url }}" class="home-event-link">
-      Más información →
-    </a>
-  </article>
+<section class="home-events"> 
+  <h2>Próximas actividades</h2> 
+  <div class="home-events-empty"> 
+    <p>Actualmente no hay próximas actividades programadas.</p> 
+    
+    <a href="{{ '/talleres/' | relative_url }}" class="home-event-link"> 
+    Ver talleres realizados → 
+    </a> 
+  </div> 
 </section>
