@@ -402,7 +402,7 @@ body {
   gap: 1rem;
   margin: 0 0 0.8rem;
   font-family: $sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.60rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -574,57 +574,6 @@ body {
 
 .home-service-card__link:hover span:last-child {
   transform: translateX(4px);
-}
-
-
-// =====================================================
-// MÓVIL
-// =====================================================
-
-@media (max-width: 700px) {
-  .home-services {
-    margin-top: 3rem;
-    padding: 0 1rem;
-  }
-
-  .home-services__header {
-    margin-bottom: 2rem;
-  }
-
-  .home-services__eyebrow::before,
-  .home-services__eyebrow::after {
-    width: 34px;
-  }
-
-  .home-services__grid {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  .home-service-card,
-  .home-service-card:last-child {
-    width: 100%;
-    min-height: 0;
-    grid-column: auto;
-  }
-
-  .home-service-card {
-    padding: 2rem 1.4rem 1.4rem;
-  }
-
-  .home-service-card__icon {
-    width: 80px;
-    height: 80px;
-    font-size: 1.9rem;
-  }
-
-  .home-service-card__content h3 {
-    font-size: 2rem;
-  }
-
-  .home-service-card__link {
-    margin-top: 1.5rem;
-  }
 }
 
 
