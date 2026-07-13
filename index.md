@@ -6,10 +6,6 @@ author_profile: false
 ---
 <section class="home-hero">
   <div class="home-hero__content">
-    <p class="home-hero__eyebrow">
-      Reflexiones críticas
-    </p>
-
     <h1 class="home-hero__title">
       Humans<br>
       on <span>AIr</span>
