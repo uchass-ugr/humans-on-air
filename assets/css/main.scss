@@ -746,14 +746,17 @@ body {
 .hoa-footer__linkedin svg {
   width: 25px;
   height: 25px;
-  fill: currentColor;
+  fill: #0d4777;
 }
 
 .hoa-footer__linkedin:hover {
-  color: #0d4777;
-  text-decoration: none;
+  opacity: 0.75;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hoa-footer__linkedin:hover svg {
+  fill: #0d4777;
+  color: #0d4777;
 }
 
 /* Franja inferior */
