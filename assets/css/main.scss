@@ -378,57 +378,253 @@ body {
 }
 
 
-// Tarjetas de inicio
+// =====================================================
+// SECCIÓN: LO QUE HACEMOS
+// =====================================================
 
-.home-cards {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
+.home-services {
+  position: relative;
   max-width: 1360px;
-  margin: 2rem auto 0;
-  padding: 0 2rem;
+  margin: 4rem auto 0;
+  padding: 0 2rem 1rem;
 }
 
-.home-card {
-  display: grid;
-  grid-template-columns: 64px 1fr;
-  gap: 1.2rem;
-  align-items: flex-start;
-  padding: 1.6rem;
-  background: rgba(255, 255, 255, 0.22);
-  border: 1px solid rgba(30, 42, 68, 0.18);
-  box-shadow: 8px 8px 0 rgba(118, 145, 202, 0.18);
+.home-services__header {
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
 }
 
-.home-card__icon {
+.home-services__eyebrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background: #445b8c;
-  color: #eee7dc;
-  font-size: 1.5rem;
+  gap: 1rem;
+  margin: 0 0 0.8rem;
+  font-family: $sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #445b8c;
 }
 
-.home-card h2 {
-  margin: 0 0 0.45rem;
-  font-size: 1.4rem;
+.home-services__eyebrow::before,
+.home-services__eyebrow::after {
+  content: "";
+  width: 58px;
+  height: 1px;
+  background: rgba(68, 91, 140, 0.35);
+}
+
+.home-services__header h2 {
+  margin: 0;
+  font-family: $serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.15;
   color: #1e2a44;
 }
 
-.home-card p {
-  margin: 0 0 0.8rem;
-  font-size: 0.98rem;
-  line-height: 1.5;
+.home-services__intro {
+  max-width: 760px;
+  margin: 1rem auto 0;
+  font-family: $sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(30, 42, 68, 0.76);
 }
 
-.home-card a {
-  font-family: $sans-serif;
-  font-weight: 700;
-  font-size: 0.92rem;
+
+// Cuadrícula de tarjetas
+
+.home-services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.8rem;
+}
+
+
+// Tarjeta individual
+
+.home-service-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(30, 42, 68, 0.12);
+  border-radius: 10px;
+
+  box-shadow:
+    0 14px 32px rgba(30, 42, 68, 0.08),
+    0 2px 6px rgba(30, 42, 68, 0.04);
+
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.home-service-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(68, 91, 140, 0.28);
+
+  box-shadow:
+    0 20px 42px rgba(30, 42, 68, 0.13),
+    0 4px 10px rgba(30, 42, 68, 0.06);
+}
+
+
+// Icono
+
+.home-service-card__icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 94px;
+  height: 94px;
+  margin: 0 auto 2rem;
+
+  border: 1px solid rgba(68, 91, 140, 0.14);
+  border-radius: 50%;
+  background: rgba(118, 145, 202, 0.12);
+
   color: #445b8c;
+  font-size: 2.25rem;
+}
+
+.home-service-card__icon::after {
+  content: "";
+  position: absolute;
+  bottom: -1.15rem;
+  width: 44px;
+  height: 3px;
+  border-radius: 999px;
+  background: #7691ca;
+}
+
+
+// Contenido
+
+.home-service-card__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.home-service-card__content h3 {
+  margin: 0 0 1rem;
+  font-family: $serif;
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+  line-height: 1.15;
+  color: #1e2a44;
+}
+
+.home-service-card__content p {
+  max-width: 310px;
+  margin: 0 auto;
+  font-family: $sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(30, 42, 68, 0.78);
+}
+
+
+// Botón inferior
+
+.home-service-card__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  min-height: 54px;
+  margin-top: 2rem;
+  padding: 0.8rem 1.2rem;
+
+  border: 1px solid #445b8c;
+  border-radius: 6px;
+
+  font-family: $sans-serif;
+  font-size: 0.94rem;
+  font-weight: 700;
+  color: #1e2a44;
+  text-decoration: none;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.home-service-card__link span:last-child {
+  font-size: 1.25rem;
+  transition: transform 0.2s ease;
+}
+
+.home-service-card__link:hover {
+  background: #445b8c;
+  color: #eee7dc;
+  text-decoration: none;
+}
+
+.home-service-card__link:hover span:last-child {
+  transform: translateX(4px);
+}
+
+
+// =====================================================
+// MÓVIL
+// =====================================================
+
+@media (max-width: 700px) {
+  .home-services {
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+
+  .home-services__header {
+    margin-bottom: 2rem;
+  }
+
+  .home-services__eyebrow::before,
+  .home-services__eyebrow::after {
+    width: 34px;
+  }
+
+  .home-services__grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .home-service-card,
+  .home-service-card:last-child {
+    width: 100%;
+    min-height: 0;
+    grid-column: auto;
+  }
+
+  .home-service-card {
+    padding: 2rem 1.4rem 1.4rem;
+  }
+
+  .home-service-card__icon {
+    width: 80px;
+    height: 80px;
+    font-size: 1.9rem;
+  }
+
+  .home-service-card__content h3 {
+    font-size: 2rem;
+  }
+
+  .home-service-card__link {
+    margin-top: 1.5rem;
+  }
 }
 
 
@@ -774,144 +970,6 @@ body {
   text-align: center;
 }
 
-/* ==================================================
-   TABLET
-   ================================================== */
-
-@media (max-width: 1050px) {
-  .hoa-footer__main {
-    grid-template-columns: 200px 1px 1fr 1px 290px;
-    gap: 1.25rem;
-  }
-
-  .hoa-footer__nav {
-    gap: 1.5rem;
-  }
-
-  .hoa-footer__email {
-    font-size: 0.82rem;
-  }
-}
-
-/* ==================================================
-   MÓVIL
-   ================================================== */
-
-@media (max-width: 800px) {
-  .hoa-footer__main {
-    width: min(100% - 2rem, 1160px);
-    min-height: auto;
-    padding: 1.5rem 0;
-
-    grid-template-columns: 1fr auto;
-    gap: 1.25rem;
-  }
-
-  .hoa-footer__brand {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .hoa-footer__contact {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .hoa-footer__nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
-
-    justify-content: flex-start;
-    gap: 0;
-    padding-top: 1.15rem;
-
-    border-top: 1px solid rgba(255, 255, 255, 0.22);
-  }
-
-  .hoa-footer__nav a {
-    padding-right: 1.25rem;
-    margin-right: 1.25rem;
-  }
-
-  .hoa-footer__nav a:not(:last-child)::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 0;
-    width: 1px;
-    height: 18px;
-    background: rgba(255, 255, 255, 0.35);
-    transform: translateY(-50%);
-  }
-
-  .hoa-footer__separator {
-    display: none;
-  }
-
-  .hoa-footer__email span {
-    display: none;
-  }
-
-  .hoa-footer__linkedin {
-    width: 42px;
-    height: 42px;
-    flex-basis: 42px;
-  }
-
-  .hoa-footer__bottom {
-    width: min(100% - 2rem, 1160px);
-  }
-}
-
-@media (max-width: 520px) {
-  .hoa-footer__main {
-    grid-template-columns: 1fr auto;
-  }
-
-  .hoa-footer__title {
-    font-size: 1.12rem;
-  }
-
-  .hoa-footer__subtitle {
-    font-size: 0.8rem;
-  }
-
-  .hoa-footer__nav {
-    flex-wrap: wrap;
-    row-gap: 0.8rem;
-  }
-
-  .hoa-footer__nav a {
-    padding-right: 0.85rem;
-    margin-right: 0.85rem;
-    font-size: 0.82rem;
-  }
-
-  .hoa-footer__email svg {
-    width: 24px;
-    height: 24px;
-  }
-
-  .hoa-footer__linkedin {
-    width: 39px;
-    height: 39px;
-    flex-basis: 39px;
-  }
-
-  .hoa-footer__linkedin svg {
-    width: 21px;
-    height: 21px;
-  }
-
-  .hoa-footer__bottom {
-    padding: 0.75rem 0;
-    font-size: 0.7rem;
-  }
-}
-
-
-
-
 
 
 
@@ -932,6 +990,27 @@ body {
   .home-event-link {
     grid-column: 2;
     justify-self: start;
+  }
+  .home-services__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-service-card:last-child {
+    grid-column: 1 / -1;
+    width: calc(50% - 0.9rem);
+    justify-self: center;
+  }
+  .hoa-footer__main {
+    grid-template-columns: 200px 1px 1fr 1px 290px;
+    gap: 1.25rem;
+  }
+
+  .hoa-footer__nav {
+    gap: 1.5rem;
+  }
+
+  .hoa-footer__email {
+    font-size: 0.82rem;
   }
 }
 
@@ -1005,6 +1084,49 @@ body {
     flex-direction: column;
     align-items: stretch;
   }
+  .home-services {
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+
+  .home-services__header {
+    margin-bottom: 2rem;
+  }
+
+  .home-services__eyebrow::before,
+  .home-services__eyebrow::after {
+    width: 34px;
+  }
+
+  .home-services__grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .home-service-card,
+  .home-service-card:last-child {
+    width: 100%;
+    min-height: 0;
+    grid-column: auto;
+  }
+
+  .home-service-card {
+    padding: 2rem 1.4rem 1.4rem;
+  }
+
+  .home-service-card__icon {
+    width: 80px;
+    height: 80px;
+    font-size: 1.9rem;
+  }
+
+  .home-service-card__content h3 {
+    font-size: 2rem;
+  }
+
+  .home-service-card__link {
+    margin-top: 1.5rem;
+  }
 
   .home-cards,
   .home-events {
@@ -1026,5 +1148,68 @@ body {
 
   .home-event-link {
     grid-column: auto;
+  }
+  .hoa-footer__main {
+    width: min(100% - 2rem, 1160px);
+    min-height: auto;
+    padding: 1.5rem 0;
+
+    grid-template-columns: 1fr auto;
+    gap: 1.25rem;
+  }
+
+  .hoa-footer__brand {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .hoa-footer__contact {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .hoa-footer__nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+
+    justify-content: flex-start;
+    gap: 0;
+    padding-top: 1.15rem;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+  }
+
+  .hoa-footer__nav a {
+    padding-right: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .hoa-footer__nav a:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 18px;
+    background: rgba(255, 255, 255, 0.35);
+    transform: translateY(-50%);
+  }
+
+  .hoa-footer__separator {
+    display: none;
+  }
+
+  .hoa-footer__email span {
+    display: none;
+  }
+
+  .hoa-footer__linkedin {
+    width: 42px;
+    height: 42px;
+    flex-basis: 42px;
+  }
+
+  .hoa-footer__bottom {
+    width: min(100% - 2rem, 1160px);
   }
 }

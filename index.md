@@ -37,31 +37,88 @@ author_profile: false
   </div> 
 </section>
 
-<section class="home-cards">
-  <article class="home-card">
-    <div class="home-card__icon">🎙</div>
-    <div>
-      <h2>Charlas</h2>
-      <p>Conversaciones con especialistas sobre IA, lenguaje, cultura y sociedad.</p>
-      <a href="{{ '/charlas/' | relative_url }}">Explorar charlas →</a>
-    </div>
-  </article>
+<section class="home-services">
+  <header class="home-services__header">
+    <p class="home-services__eyebrow">Lo que hacemos</p>
 
-  <article class="home-card">
-    <div class="home-card__icon">✎</div>
-    <div>
-      <h2>Talleres</h2>
-      <p>Espacios prácticos para experimentar y reflexionar sobre tecnología y humanidades.</p>
-      <a href="{{ '/talleres/' | relative_url }}">Ver talleres →</a>
-    </div>
-  </article>
+    <h2>Espacios para pensar, crear y colaborar</h2>
 
-  <article class="home-card">
-    <div class="home-card__icon">👥</div>
-    <div>
-      <h2>Equipo</h2>
-      <p>Conoce al equipo interdisciplinar detrás del proyecto.</p>
-      <a href="{{ '/equipo/' | relative_url }}">Conocer equipo →</a>
-    </div>
-  </article>
+    <p class="home-services__intro">
+      Actividades y encuentros para explorar la intersección entre
+      tecnología, humanidades y sociedad.
+    </p>
+  </header>
+
+  <div class="home-services__grid">
+
+    <article class="home-service-card">
+      <div class="home-service-card__icon" aria-hidden="true">
+        🎙
+      </div>
+
+      <div class="home-service-card__content">
+        <h3>Charlas</h3>
+
+        <p>
+          Conversaciones con especialistas sobre IA, lenguaje, cultura
+          y sociedad.
+        </p>
+      </div>
+
+      <a
+        href="{{ '/charlas/' | relative_url }}"
+        class="home-service-card__link"
+      >
+        <span>Explorar charlas</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article class="home-service-card">
+      <div class="home-service-card__icon" aria-hidden="true">
+        ✎
+      </div>
+
+      <div class="home-service-card__content">
+        <h3>Talleres</h3>
+
+        <p>
+          Espacios prácticos para experimentar y reflexionar sobre
+          tecnología y humanidades.
+        </p>
+      </div>
+
+      <a
+        href="{{ '/talleres/' | relative_url }}"
+        class="home-service-card__link"
+      >
+        <span>Ver talleres</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </article>
+
+    <article class="home-service-card">
+      <div class="home-service-card__icon" aria-hidden="true">
+        👥
+      </div>
+
+      <div class="home-service-card__content">
+        <h3>Equipo</h3>
+
+        <p>
+          Conoce al equipo interdisciplinar que impulsa el proyecto
+          Humans on AIr.
+        </p>
+      </div>
+
+      <a
+        href="{{ '/equipo/' | relative_url }}"
+        class="home-service-card__link"
+      >
+        <span>Conocer equipo</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </article>
+
+  </div>
 </section>
