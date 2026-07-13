@@ -12,19 +12,12 @@ author_profile: false
     </h1>
 
     <p class="home-hero__description">
-      Reflexiones críticas sobre el impacto de la inteligencia artificial
-      en la cultura, la comunicación y la sociedad.
+      Reflexiones críticas sobre el impacto de<br>
+      la inteligencia artificial en la cultura, la<br>
+      comunicación y la sociedad.
     </p>
 
     <div class="home-hero__buttons">
-      <a
-        href="{{ '/charlas/' | relative_url }}"
-        class="home-button home-button--primary"
-      >
-        <span>Ver charlas</span>
-        <span aria-hidden="true">→</span>
-      </a>
-
       <a
         href="{{ '/sobre/' | relative_url }}"
         class="home-button home-button--secondary"
