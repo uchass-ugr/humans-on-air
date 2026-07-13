@@ -5,8 +5,6 @@ permalink: /
 author_profile: false
 ---
 <section class="home-hero">
-  <div class="home-hero__image" aria-hidden="true"></div>
-
   <div class="home-hero__content">
     <p class="home-hero__eyebrow">
       Reflexiones críticas
@@ -40,6 +38,8 @@ author_profile: false
       </a>
     </div>
   </div>
+  <div class="home-hero__image" aria-hidden="true"></div>
+
 </section>
 
 {% assign hay_actividades = false %}
