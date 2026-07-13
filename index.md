@@ -43,10 +43,6 @@ author_profile: false
 
     <h2>Espacios para pensar, crear y colaborar</h2>
 
-    <p class="home-services__intro">
-      Actividades y encuentros para explorar la intersección entre
-      tecnología, humanidades y sociedad.
-    </p>
   </header>
 
   <div class="home-services__grid">
