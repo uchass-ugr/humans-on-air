@@ -4,28 +4,42 @@ title: "Humans on AIr"
 permalink: /
 author_profile: false
 ---
-
 <section class="home-hero">
-  <div class="home-hero__image"></div>
-
   <div class="home-hero__content">
-    <h1>Humans<br>on <span>AIr</span></h1>
+    <p class="home-hero__eyebrow">
+      Reflexiones críticas
+    </p>
 
-    <p>
+    <h1 class="home-hero__title">
+      Humans<br>
+      on <span>AIr</span>
+    </h1>
+
+    <p class="home-hero__description">
       Reflexiones críticas sobre el impacto de la inteligencia artificial
       en la cultura, la comunicación y la sociedad.
     </p>
 
     <div class="home-hero__buttons">
-      <a href="{{ '/charlas/' | relative_url }}" class="home-button home-button--primary">
-        Ver charlas →
+      <a
+        href="{{ '/charlas/' | relative_url }}"
+        class="home-button home-button--primary"
+      >
+        <span>Ver charlas</span>
+        <span aria-hidden="true">→</span>
       </a>
 
-      <a href="{{ '/sobre/' | relative_url }}" class="home-button home-button--secondary">
-        Sobre el proyecto →
+      <a
+        href="{{ '/sobre/' | relative_url }}"
+        class="home-button home-button--secondary"
+      >
+        <span>Sobre el proyecto</span>
+        <span aria-hidden="true">→</span>
       </a>
     </div>
   </div>
+
+  <div class="home-hero__image" aria-hidden="true"></div>
 </section>
 
 {% assign hay_actividades = false %}
