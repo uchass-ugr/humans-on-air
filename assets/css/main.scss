@@ -201,7 +201,7 @@ body {
   }
 
   a {
-    font-family: $sans-serif;
+    font-family: $serif;
     font-weight: 700;
     color: #445b8c;
   }
@@ -249,7 +249,7 @@ body {
   }
 
   a {
-    font-family: $sans-serif;
+    font-family: $serif;
     font-size: 0.92rem;
     font-weight: 700;
     color: #445b8c;
@@ -325,7 +325,7 @@ body {
 
   margin: 0 0 1.2rem;
 
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -362,7 +362,7 @@ body {
   max-width: 540px;
   margin: 0 0 2rem;
 
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: clamp(1rem, 1.35vw, 1.16rem);
   line-height: 1.65;
 
@@ -429,7 +429,7 @@ body {
 
   border-radius: 5px;
 
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.9rem;
   font-weight: 700;
   text-decoration: none;
@@ -508,7 +508,7 @@ body {
   justify-content: center;
   gap: 0.8rem;
   margin: 0 0 0.7rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -526,7 +526,7 @@ body {
 
 .home-services__header h2 {
   margin: 0;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: clamp(1.75rem, 2.6vw, 2.4rem);
   font-weight: 700;
   line-height: 1.1;
@@ -536,7 +536,7 @@ body {
 .home-services__intro {
   max-width: 680px;
   margin: 0.75rem auto 0;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.92rem;
   line-height: 1.5;
   color: rgba(30, 42, 68, 0.72);
@@ -626,7 +626,7 @@ body {
 
 .home-service-card__content h3 {
   margin: 0 0 0.8rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: clamp(1.65rem, 2.2vw, 2.1rem);
   font-weight: 700;
   line-height: 1.15;
@@ -636,7 +636,7 @@ body {
 .home-service-card__content p {
   max-width: 280px;
   margin: 0 auto;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.92rem;
   line-height: 1.55;
   color: rgba(30, 42, 68, 0.72);
@@ -658,7 +658,7 @@ body {
   border: 1px solid #445b8c;
   border-radius: 6px;
 
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.88rem;
   font-weight: 700;
   color: #1e2a44;
@@ -696,7 +696,7 @@ body {
 
 .home-events h2 {
   margin: 0 0 1.5rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.2;
@@ -733,7 +733,7 @@ body {
 .home-event-date span {
   display: block;
   padding: 0.35rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-weight: 700;
   font-size: 0.8rem;
   background: #445b8c;
@@ -743,7 +743,7 @@ body {
 .home-event-date strong {
   display: block;
   padding-top: 0.4rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 2.4rem;
   line-height: 1;
   color: #1e2a44;
@@ -752,7 +752,7 @@ body {
 .home-event-date small {
   display: block;
   padding: 0.25rem 0 0.55rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.7rem;
   font-weight: 700;
   color: #1e2a44;
@@ -760,7 +760,7 @@ body {
 
 .home-event-type {
   margin: 0 0 0.25rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -769,7 +769,7 @@ body {
 
 .home-event-info h3 {
   margin: 0 0 0.35rem;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 1.35rem;
   font-weight: 700;
   color: #1e2a44;
@@ -777,11 +777,11 @@ body {
 
 .home-event-info p {
   margin: 0.25rem 0;
-  font-family: $sans-serif;
+  font-family: $serif;
 }
 
 .home-event-meta {
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: 0.88rem;
   color: rgba(0, 0, 0, 0.72);
 }
