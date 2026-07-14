@@ -419,15 +419,4 @@ author_profile: false
     </section>
 
   </main>
-
-  <aside class="talks-sidebar" aria-label="Navegación de charlas por año">
-    <p class="talks-sidebar__title">
-      Por año
-    </p>
-
-    <nav class="talks-sidebar__nav">
-      <a href="#charlas-2026">2026</a>
-      <a href="#charlas-2025">2025</a>
-    </nav>
-  </aside>
 </div>
