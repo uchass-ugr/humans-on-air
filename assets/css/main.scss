@@ -157,27 +157,24 @@ body {
 .card--proximamente::before {
   content: "PRÓXIMAMENTE";
   position: absolute;
-  top: 22px;
-  right: -42px;
+  top: 24px;
+  right: -32px;
   z-index: 10;
 
   width: 170px;
-  padding: 6px 0;
+  padding: 7px 0;
 
   background: #1f2d4a;
   color: #fff;
 
   font-size: 0.62rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
-  line-height: 1;
-
+  letter-spacing: 0.04em;
+  line-height: 1.2;
   text-align: center;
   white-space: nowrap;
 
   transform: rotate(45deg);
-  transform-origin: center;
-
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
 }
 
