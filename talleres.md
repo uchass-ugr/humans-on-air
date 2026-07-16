@@ -10,7 +10,7 @@ author_profile: false
 ## 2026
 ---
 
-<div class="card">
+<div class="card card--proximamente">
 <div style="flex:0 0 200px;">
 <img src="{{ '/assets/images/talleres/noche-investigadores.jpg' | relative_url }}" alt="Noche de los investigadores 2026" style="width:200px; display:block;">
 <a href="https://educa.ugr.es/divulgacion-cientifica/la-noche-de-los-investigadores/" class="btn btn--inverse" style="margin-top:0.6em; display:inline-block;">Más información</a>

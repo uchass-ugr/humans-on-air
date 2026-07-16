@@ -149,7 +149,35 @@ body {
     margin-top: 0 !important;
   }
 }
+.card--proximamente {
+  position: relative;
+  overflow: hidden;
+}
 
+.card--proximamente::before {
+  content: "PRÓXIMAMENTE";
+  position: absolute;
+  top: 28px;
+  right: -48px;
+  z-index: 10;
+
+  width: 210px;
+  padding: 9px 0;
+
+  background: #1f2d4a;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-align: center;
+
+  transform: rotate(45deg);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card--proximamente img {
+  opacity: 0.82;
+}
 
 // =====================================================
 // PÁGINA EQUIPO
