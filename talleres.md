@@ -8,7 +8,23 @@ author_profile: false
 ---
 
 ## 2026
+---
 
+<div class="card">
+<div style="flex:0 0 200px;">
+<img src="{{ '/assets/images/talleres/noche-investigadores.jpg' | relative_url }}" alt="Noche de los investigadores 2026" style="width:200px; display:block;">
+<a href="https://educa.ugr.es/divulgacion-cientifica/la-noche-de-los-investigadores/" class="btn btn--inverse" style="margin-top:0.6em; display:inline-block;">Más información</a>
+</div>
+<div class="card-text" markdown="1">
+### Ese oscuro, omnipresente y ¿todopoderoso? objeto del deseo: uso responsable de los asistentes de IA generativa  
+**Fecha:** 25 de septiembre de 2026 
+**Lugar:** Paseo del Salón, Granada  
+**Dirigido a:** Público general
+
+</div>
+</div>
+
+---
 ---
 
 <div class="card">

@@ -31,7 +31,7 @@ author_profile: false
 
 </section>
 
-{% assign hay_actividades = false %}
+{% assign hay_actividades = true %}
 
 {% if hay_actividades %}
   <section class="home-events">
@@ -39,25 +39,25 @@ author_profile: false
 
     <article class="home-event-card">
       <div class="home-event-date">
-        <span>JUL</span>
-        <strong>09</strong>
-        <small>JUEVES</small>
+        <span>SEP</span>
+        <strong>25</strong>
+        <small>VIERNES</small>
       </div>
 
       <div class="home-event-info">
         <p class="home-event-type">TALLER</p>
 
         <h3>
-          Taller de IA: Uso práctico de la IA Generativa para adultos
+          Ese oscuro, omnipresente y ¿todopoderoso? objeto del deseo: uso responsable de los asistentes de IA generativa
         </h3>
 
         <p>
-          Benamí Barros García y Nicolás Robinson-García ·
-          U^CHASS (Universidad de Granada)
+          Noche europea de los investigadores ·
+          Granada
         </p>
 
         <p class="home-event-meta">
-          9 de julio de 2026 · 11:00 h · Punto Vuela de Quéntar
+          25 de septiembre de 2026 · Paseo del Salón, Granada
         </p>
       </div>
 
