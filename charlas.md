@@ -18,7 +18,7 @@ author_profile: false
       <div class="card">
         <div class="card-image">
           <img
-            src="{{ '/assets/images/charlas/pilar-paneque.jpeg' | relative_url }}"
+            src="{{ '/assets/images/charlas/Pilar-Paneque.png' | relative_url }}"
             alt="Pilar Paneque Salgado"
           >
         </div>
