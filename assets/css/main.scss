@@ -157,26 +157,28 @@ body {
 .card--proximamente::before {
   content: "PRÓXIMAMENTE";
   position: absolute;
-  top: 28px;
-  right: -48px;
+  top: 22px;
+  right: -42px;
   z-index: 10;
 
-  width: 210px;
-  padding: 9px 0;
+  width: 170px;
+  padding: 6px 0;
 
   background: #1f2d4a;
   color: #fff;
-  font-size: 0.78rem;
+
+  font-size: 0.62rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
+  line-height: 1;
+
   text-align: center;
+  white-space: nowrap;
 
   transform: rotate(45deg);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
+  transform-origin: center;
 
-.card--proximamente img {
-  opacity: 0.82;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.18);
 }
 
 // =====================================================
