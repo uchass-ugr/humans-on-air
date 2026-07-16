@@ -17,7 +17,7 @@ author_profile: false
 </div>
 <div class="card-text" markdown="1">
 ### Ese oscuro, omnipresente y ¿todopoderoso? objeto del deseo: uso responsable de los asistentes de IA generativa  
-**Fecha:** 25 de septiembre de 2026, 9:00 -21:00h 
+**Fecha:** 25 de septiembre de 2026 <br> 
 **Lugar:** Paseo del Salón, Granada  
 **Dirigido a:** Público general
 
