@@ -1362,6 +1362,20 @@ body {
 
 
 
+// MENU TALLERES
+
+.talks-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.talks-sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
 
 
 
