@@ -171,7 +171,7 @@ author_profile: false
 
             <a
               href="https://doi.org/10.5281/zenodo.20745942"
-              class="talk-button"
+              class="talk-button talk-button--video"
               target="_blank"
               rel="noopener noreferrer"
             >
