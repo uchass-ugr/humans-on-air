@@ -15,7 +15,7 @@ author_profile: false
 
       <hr>
 
-      <div class="card card--proximamente">
+      <div class="card card--proximamente" id="proximos-talleres">
         <div class="card-image">
           <img
             src="{{ '/assets/images/talleres/noche-investigadores.jpg' | relative_url }}"
@@ -277,12 +277,11 @@ author_profile: false
   
   <aside class="talks-sidebar" aria-label="Menú de talleres">
     <nav>
-      <h2>Talleres</h2>
+      <h2>Explorar talleres</h2>
   
       <ul>
         <li><a href="#talleres-2026">Talleres de 2026</a></li>
         <li><a href="#proximos-talleres">Próximos talleres</a></li>
-        <li><a href="#materiales">Materiales disponibles</a></li>
       </ul>
     </nav>
   </aside>
