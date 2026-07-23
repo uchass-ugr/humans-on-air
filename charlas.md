@@ -419,4 +419,14 @@ author_profile: false
     </section>
 
   </main>
+  <aside class="talks-sidebar" aria-label="Menú de charlas">
+    <nav>
+      <h2>Explora</h2>
+  
+      <ul>
+        <li><a href="#charlas-2026">Charlas de 2026</a></li>
+        <li><a href="#charlas-2025">Charlas de 2025</a></li>
+      </ul>
+    </nav>
+  </aside>
 </div>
