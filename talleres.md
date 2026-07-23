@@ -44,7 +44,7 @@ author_profile: false
           <div class="talk-actions">
             <a
               href="https://educa.ugr.es/divulgacion-cientifica/la-noche-de-los-investigadores/"
-              class="talk-button"
+              class="talk-button talk-button--video"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,7 +106,7 @@ author_profile: false
 
             <a
               href="https://doi.org/10.5281/zenodo.20745942"
-              class="talk-button"
+              class="talk-button talk-button--video"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -260,7 +260,7 @@ author_profile: false
 
             <a
               href="https://www.ugr.es/~mm3/apps/index.html"
-              class="talk-button"
+              class="talk-button talk-button--video"
               target="_blank"
               rel="noopener noreferrer"
             >
