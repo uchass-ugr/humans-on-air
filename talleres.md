@@ -5,43 +5,6 @@ permalink: /talleres/
 toc: false
 author_profile: false
 ---
-<header class="workshops-hero">
-  <div class="workshops-hero__decoration" aria-hidden="true">
-    <span class="workshops-hero__star">✦</span>
-  </div>
-
-  <div class="workshops-hero__content">
-    <h1 class="workshops-hero__title">Talleres</h1>
-
-    <span class="workshops-hero__line" aria-hidden="true"></span>
-
-    <p class="workshops-hero__subtitle">
-      Formación, divulgación y actividades prácticas
-    </p>
-  </div>
-
-  <div class="workshops-hero__illustration" aria-hidden="true">
-    <svg viewBox="0 0 180 130" role="img">
-      <rect x="62" y="15" width="82" height="48" rx="4"></rect>
-      <line x1="78" y1="31" x2="128" y2="31"></line>
-      <line x1="78" y1="43" x2="119" y2="43"></line>
-
-      <circle cx="48" cy="51" r="10"></circle>
-      <path d="M29 91v-15c0-10 8-18 19-18s19 8 19 18v15"></path>
-
-      <circle cx="79" cy="92" r="9"></circle>
-      <path d="M63 122v-11c0-9 7-16 16-16s16 7 16 16v11"></path>
-
-      <circle cx="112" cy="92" r="9"></circle>
-      <path d="M96 122v-11c0-9 7-16 16-16s16 7 16 16v11"></path>
-
-      <circle cx="145" cy="92" r="9"></circle>
-      <path d="M129 122v-11c0-9 7-16 16-16s16 7 16 16v11"></path>
-
-      <path d="M56 58l22-17"></path>
-    </svg>
-  </div>
-</header>
 
 <div class="talks-layout">
 
