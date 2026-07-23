@@ -1557,6 +1557,26 @@ body {
   .card-image img {
     width: 150px;
   }
+  .talks-layout {
+    display: block;
+  }
+
+  .talks-sidebar {
+    position: static;
+    width: 100%;
+    margin: 2.5rem 0 0;
+  }
+
+  .talks-sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .talks-sidebar li,
+  .talks-sidebar li + li {
+    margin: 0;
+  }
 }
 
 @media (max-width: 900px) {
