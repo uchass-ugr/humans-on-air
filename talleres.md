@@ -277,7 +277,7 @@ author_profile: false
   
   <aside class="talks-sidebar" aria-label="Menú de talleres">
     <nav>
-      <h2>Explorar talleres</h2>
+      <h2>Explora</h2>
   
       <ul>
         <li><a href="#talleres-2026">Talleres de 2026</a></li>
