@@ -15,6 +15,77 @@ author_profile: false
 
       <hr>
 
+      <div class="card card--proximamente">
+        <div class="card-image">
+          <img
+            src="{{ '/assets/images/charlas/Andres-Castro.png' | relative_url }}"
+            alt="Andrés F. Castro"
+          >
+        </div>
+
+        <div class="card-text">
+          <h3 class="talk-title">
+            When AI Meets Science: Research Diversity, Interdisciplinarity,
+            Visibility, and Retractions across Disciplines in a Global Surge
+          </h3>
+
+          <p>
+            <strong>Fecha:</strong> 26 de octubre de 2026
+          </p>
+
+          <p>
+            <strong>Lugar:</strong> Por determinar
+          </p>
+
+          <p>
+            <strong>Ponente:</strong> Andrés F. Castro
+          </p>
+
+          <details class="talk-details">
+            <summary>Ver descripción</summary>
+
+            <div class="talk-details__content">
+              <p>
+                The extent to which Artificial Intelligence (AI) technologies
+                can trigger generalized paradigm shifts in science is
+                unclear. Although these technologies have revolutionized
+                data collection and analysis in specific fields, their
+                overall impact depends on the scope and ways of adoption.
+                We analyze over 227 million scholarly works from the
+                OpenAlex collection (1960-2024) spanning four scientific
+                domains and 46 fields. To distinguish the use of AI as
+                research method (AI adoption) from mentioning AI-related
+                terms (AI engagement), we developed a two-step AI-assisted
+                semantic classification pipeline, validated through human
+                coding of 911 abstracts and a robustness check on 348,000
+                full-text articles (PLOS One). We document differences in
+                the timing and extent of AI adoption across domains, with
+                generalized exponential growth after 2015. The
+                transformative nature of this growth, however, is less
+                apparent. AI-supported research is confined to a few
+                topics with strong ties to Computer Science and
+                conventional statistical frameworks, suggesting limited
+                epistemological transformation. It is also associated
+                with an unwarranted citation premium and substantially
+                higher retraction rates than non-AI-supported.
+                Geographically, while wealthy countries lead in AI
+                publications per capita, global South countries in a belt
+                from Indonesia to Algeria lead in AI adoption relative to
+                their national output, signaling a distinctive resource
+                concentration pattern. The transformative capacity of AI
+                in science thus remains untapped, and its rapid adoption
+                underlines challenges in research openness, transparency,
+                reproducibility, and ethics. We discuss how best research
+                practices could boost the benefits of AI adoption and
+                highlight areas that warrant closer scrutiny.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <hr>
+
       <div class="card">
         <div class="card-image">
           <img

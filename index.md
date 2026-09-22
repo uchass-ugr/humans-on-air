@@ -31,7 +31,7 @@ author_profile: false
 
 </section>
 
-{% assign hay_actividades = false %}
+{% assign hay_actividades = true %}
 
 {% if hay_actividades %}
   <section class="home-events">
@@ -39,29 +39,28 @@ author_profile: false
 
     <article class="home-event-card">
       <div class="home-event-date">
-        <span>SEP</span>
-        <strong>25</strong>
-        <small>VIERNES</small>
+        <span>OCT</span>
+        <strong>26</strong>
+        <small>LUNES</small>
       </div>
 
       <div class="home-event-info">
-        <p class="home-event-type">TALLER</p>
+        <p class="home-event-type">CHARLA</p>
 
         <h3>
-          Ese oscuro, omnipresente y ¿todopoderoso? objeto del deseo: uso responsable de los asistentes de IA generativa
+          When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge
         </h3>
 
         <p>
-          Noche europea de los investigadores ·
-          Granada
+          Andrés F. Castro
         </p>
 
         <p class="home-event-meta">
-          25 de septiembre de 2026 · Paseo del Salón, Granada
+          26 de octubre de 2026 · Lugar por determinar
         </p>
       </div>
 
-      <a href="{{ '/talleres/' | relative_url }}" class="home-event-link">
+      <a href="{{ '/charlas/' | relative_url }}" class="home-event-link">
         Más información →
       </a>
     </article>
