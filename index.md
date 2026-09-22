@@ -64,6 +64,34 @@ author_profile: false
         Más información →
       </a>
     </article>
+
+    <article class="home-event-card">
+      <div class="home-event-date">
+        <span>OCT</span>
+        <strong>26</strong>
+        <small>LUNES</small>
+      </div>
+
+      <div class="home-event-info">
+        <p class="home-event-type">CHARLA</p>
+
+        <h3>
+          Manipulación y fake news en la prensa
+        </h3>
+
+        <p>
+          Mariona Coll Ardanuy
+        </p>
+
+        <p class="home-event-meta">
+          26 de octubre de 2026 · Lugar por determinar
+        </p>
+      </div>
+
+      <a href="{{ '/charlas/' | relative_url }}" class="home-event-link">
+        Más información →
+      </a>
+    </article>
   </section>
 {% endif %}
 

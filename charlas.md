@@ -86,6 +86,35 @@ author_profile: false
 
       <hr>
 
+      <div class="card card--proximamente">
+        <div class="card-image">
+          <img
+            src="{{ '/assets/images/charlas/Mariona-Coll.png' | relative_url }}"
+            alt="Mariona Coll Ardanuy"
+          >
+        </div>
+
+        <div class="card-text">
+          <h3 class="talk-title">
+            Manipulación y fake news en la prensa
+          </h3>
+
+          <p>
+            <strong>Fecha:</strong> 26 de octubre de 2026
+          </p>
+
+          <p>
+            <strong>Lugar:</strong> Por determinar
+          </p>
+
+          <p>
+            <strong>Ponente:</strong> Mariona Coll Ardanuy
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
       <div class="card">
         <div class="card-image">
           <img
