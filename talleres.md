@@ -15,48 +15,6 @@ author_profile: false
 
       <hr>
 
-      <div class="card card--proximamente" id="proximos-talleres">
-        <div class="card-image">
-          <img
-            src="{{ '/assets/images/talleres/noche-investigadores.jpg' | relative_url }}"
-            alt="Noche de los investigadores 2026"
-          >
-        </div>
-
-        <div class="card-text">
-          <h3 class="talk-title">
-            Ese oscuro, omnipresente y ¿todopoderoso? objeto del deseo:
-            uso responsable de los asistentes de IA generativa
-          </h3>
-
-          <p>
-            <strong>Fecha:</strong> 25 de septiembre de 2026
-          </p>
-
-          <p>
-            <strong>Lugar:</strong> Paseo del Salón, Granada
-          </p>
-
-          <p>
-            <strong>Dirigido a:</strong> Público general
-          </p>
-
-          <div class="talk-actions">
-            <a
-              href="https://educa.ugr.es/divulgacion-cientifica/la-noche-de-los-investigadores/"
-              class="talk-button talk-button--video"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>Más información</span>
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <hr>
-
       <div class="card">
         <div class="card-image">
           <img

@@ -31,7 +31,7 @@ author_profile: false
 
 </section>
 
-{% assign hay_actividades = true %}
+{% assign hay_actividades = false %}
 
 {% if hay_actividades %}
   <section class="home-events">
