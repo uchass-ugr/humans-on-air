@@ -87,7 +87,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
 
         <div class="card-text">
           <h3 class="talk-title">
-            Manipulación y fake news en la prensa
+            Procesamiento del Lenguaje Natural para la investigación en Ciencias Sociales y Humanidades
           </h3>
 
           <p>
@@ -113,7 +113,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
               <div class="talk-details__content">
                 <p>
                   Mariona Coll Ardanuy es investigadora en el Barcelona Supercomputing Center (BSC), especializada en lingüística computacional, procesamiento del lenguaje natural e inteligencia artificial aplicada al estudio de fenómenos sociales y culturales. Su trayectoria investigadora combina métodos computacionales y análisis del discurso, con especial interés en el estudio de grandes colecciones de textos y en la identificación de patrones lingüísticos. 
-                En esta conferencia, titulada «Manipulación y fake news en la prensa», se abordará el fenómeno de la desinformación en los medios de comunicación desde una perspectiva lingüística y computacional.
+                En esta conferencia, titulada «Procesamiento del Lenguaje Natural para la investigación en Ciencias Sociales y Humanidades», se abordará el fenómeno de la aplicación de la IA en el ámbito de las Ciencias Sociales y Humanidades, mostrando ejemplos prácticos.
                 </p>
               </div>
             </details>
