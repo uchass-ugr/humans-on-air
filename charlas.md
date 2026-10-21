@@ -32,6 +32,10 @@ author_profile: false
           <p>
             <strong>Fecha:</strong> 26 de octubre de 2026
           </p>
+          
+          <p>
+            <strong>Hora:</strong> 11:00 - 13:00
+          </p>
 
           <p>
             <strong>Lugar:</strong> Sala de Conferencias - Facultad Traducción e Interpretación UGR
@@ -102,7 +106,11 @@ author_profile: false
           <p>
             <strong>Fecha:</strong> 26 de octubre de 2026
           </p>
-
+          
+          <p>
+            <strong>Hora:</strong> 11:00 - 13:00
+          </p>
+          
           <p>
             <strong>Lugar:</strong> Sala de Conferencias - Facultad Traducción e Interpretación UGR
           </p>
