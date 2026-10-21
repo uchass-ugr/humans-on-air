@@ -34,7 +34,7 @@ author_profile: false
           </p>
 
           <p>
-            <strong>Lugar:</strong> Por determinar
+            <strong>Lugar:</strong> Sala de Conferencias - Facultad Traducción e Interpretación UGR
           </p>
 
           <p>
@@ -104,12 +104,22 @@ author_profile: false
           </p>
 
           <p>
-            <strong>Lugar:</strong> Por determinar
+            <strong>Lugar:</strong> Sala de Conferencias - Facultad Traducción e Interpretación UGR
           </p>
 
           <p>
             <strong>Ponente:</strong> Mariona Coll Ardanuy
           </p>
+          <details class="talk-details">
+            <summary>Ver descripción</summary>
+
+            <div class="talk-details__content">
+              <p>
+                Mariona Coll Ardanuy es investigadora en el Barcelona Supercomputing Center (BSC), especializada en lingüística computacional, procesamiento del lenguaje natural e inteligencia artificial aplicada al estudio de fenómenos sociales y culturales. Su trayectoria investigadora combina métodos computacionales y análisis del discurso, con especial interés en el estudio de grandes colecciones de textos y en la identificación de patrones lingüísticos. 
+                En esta conferencia, titulada «Manipulación y fake news en la prensa», se abordará el fenómeno de la desinformación en los medios de comunicación desde una perspectiva lingüística y computacional.
+              </p>
+            </div>
+          </details>
         </div>
       </div>
 
