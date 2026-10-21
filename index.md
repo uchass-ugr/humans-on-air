@@ -76,7 +76,7 @@ author_profile: false
         <p class="home-event-type">CHARLA</p>
 
         <h3>
-          Manipulación y fake news en la prensa
+          Procesamiento del Lenguaje Natural para la investigación en Ciencias Sociales y Humanidades
         </h3>
 
         <p>
