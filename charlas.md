@@ -44,13 +44,14 @@ author_profile: false
           <p>
             <strong>Ponente:</strong> Andrés F. Castro
           </p>
+          
+          <div class="talk-actions">
+            <details class="talk-details">
+              <summary>Ver descripción</summary>
 
-          <details class="talk-details">
-            <summary>Ver descripción</summary>
-
-            <div class="talk-details__content">
-              <p>
-                El grado en que las tecnologías de Inteligencia Artificial (IA) pueden desencadenar cambios de paradigma generalizados en la ciencia sigue siendo incierto. Aunque estas tecnologías han revolucionado la recopilación y el análisis de datos en determinados campos, su impacto global depende del alcance y de las formas en que se adoptan.
+              <div class="talk-details__content">
+                <p>
+                  El grado en que las tecnologías de Inteligencia Artificial (IA) pueden desencadenar cambios de paradigma generalizados en la ciencia sigue siendo incierto. Aunque estas tecnologías han revolucionado la recopilación y el análisis de datos en determinados campos, su impacto global depende del alcance y de las formas en que se adoptan.
 Analizamos más de 227 millones de publicaciones académicas de la base de datos OpenAlex (1960-2024), que abarcan cuatro grandes áreas científicas y 46 disciplinas. Para distinguir entre el uso de la IA como método de investigación (adopción de la IA) y la mera mención de términos relacionados con ella (interacción con la IA), desarrollamos un sistema de clasificación semántica en dos etapas, asistido por IA, que fue validado mediante la codificación humana de 911 resúmenes y una prueba de robustez realizada sobre 348.000 artículos a texto completo de PLOS One.
 Documentamos diferencias en el momento y el grado de adopción de la IA entre las distintas áreas científicas, con un crecimiento exponencial generalizado a partir de 2015. Sin embargo, el carácter transformador de este crecimiento resulta menos evidente.
 La investigación apoyada en IA se concentra en un número reducido de temas estrechamente vinculados con las Ciencias de la Computación y los enfoques estadísticos convencionales, lo que sugiere una transformación epistemológica limitada.
@@ -58,9 +59,19 @@ Además, la investigación que utiliza IA se asocia con una ventaja en términos
 Desde una perspectiva geográfica, mientras que los países más ricos lideran la producción de publicaciones sobre IA por habitante, los países del Sur Global situados en una franja que se extiende desde Indonesia hasta Argelia destacan por una mayor adopción de la IA en relación con su producción científica nacional, lo que revela un patrón particular de concentración de recursos.
 Por tanto, el potencial transformador de la IA en la ciencia sigue sin aprovecharse plenamente, y su rápida adopción pone de manifiesto importantes desafíos relacionados con la apertura, la transparencia, la reproducibilidad y la ética de la investigación.
 Por último, analizamos cómo las buenas prácticas científicas podrían potenciar los beneficios derivados de la adopción de la IA y señalamos aquellas áreas que requieren un examen más detenido. 
-              </p>
-            </div>
-          </details>
+                </p>
+              </div>
+            </details>
+            <a
+              href="https://www.researchgate.net/publication/404626726_When_AI_Meets_Science_Research_Diversity_Interdisciplinarity_Visibility_and_Retractions_across_Disciplines_in_a_Global_Surge"
+              class="talk-button talk-button--video"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              <span>Más información</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </div>
       </div>
 
