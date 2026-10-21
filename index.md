@@ -84,7 +84,7 @@ author_profile: false
         </p>
 
         <p class="home-event-meta">
-          26 de octubre de 2026 · Lugar por determinar
+          26 de octubre de 2026 · Sala de Conferencias - Facultad de Traducción e Interpretación UGR
         </p>
       </div>
 
