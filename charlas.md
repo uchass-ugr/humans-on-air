@@ -117,16 +117,6 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                 </p>
               </div>
             </details>
-
-            <a
-              href="https://www.researchgate.net/publication/404626726_When_AI_Meets_Science_Research_Diversity_Interdisciplinarity_Visibility_and_Retractions_across_Disciplines_in_a_Global_Surge"
-              class="talk-button talk-button--video"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>Más información</span>
-              <span aria-hidden="true">→</span>
-            </a>
           </div>
         </div>
       </div>
