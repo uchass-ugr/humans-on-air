@@ -50,38 +50,14 @@ author_profile: false
 
             <div class="talk-details__content">
               <p>
-                The extent to which Artificial Intelligence (AI) technologies
-                can trigger generalized paradigm shifts in science is
-                unclear. Although these technologies have revolutionized
-                data collection and analysis in specific fields, their
-                overall impact depends on the scope and ways of adoption.
-                We analyze over 227 million scholarly works from the
-                OpenAlex collection (1960-2024) spanning four scientific
-                domains and 46 fields. To distinguish the use of AI as
-                research method (AI adoption) from mentioning AI-related
-                terms (AI engagement), we developed a two-step AI-assisted
-                semantic classification pipeline, validated through human
-                coding of 911 abstracts and a robustness check on 348,000
-                full-text articles (PLOS One). We document differences in
-                the timing and extent of AI adoption across domains, with
-                generalized exponential growth after 2015. The
-                transformative nature of this growth, however, is less
-                apparent. AI-supported research is confined to a few
-                topics with strong ties to Computer Science and
-                conventional statistical frameworks, suggesting limited
-                epistemological transformation. It is also associated
-                with an unwarranted citation premium and substantially
-                higher retraction rates than non-AI-supported.
-                Geographically, while wealthy countries lead in AI
-                publications per capita, global South countries in a belt
-                from Indonesia to Algeria lead in AI adoption relative to
-                their national output, signaling a distinctive resource
-                concentration pattern. The transformative capacity of AI
-                in science thus remains untapped, and its rapid adoption
-                underlines challenges in research openness, transparency,
-                reproducibility, and ethics. We discuss how best research
-                practices could boost the benefits of AI adoption and
-                highlight areas that warrant closer scrutiny.
+                El grado en que las tecnologías de Inteligencia Artificial (IA) pueden desencadenar cambios de paradigma generalizados en la ciencia sigue siendo incierto. Aunque estas tecnologías han revolucionado la recopilación y el análisis de datos en determinados campos, su impacto global depende del alcance y de las formas en que se adoptan.
+Analizamos más de 227 millones de publicaciones académicas de la base de datos OpenAlex (1960-2024), que abarcan cuatro grandes áreas científicas y 46 disciplinas. Para distinguir entre el uso de la IA como método de investigación (adopción de la IA) y la mera mención de términos relacionados con ella (interacción con la IA), desarrollamos un sistema de clasificación semántica en dos etapas, asistido por IA, que fue validado mediante la codificación humana de 911 resúmenes y una prueba de robustez realizada sobre 348.000 artículos a texto completo de PLOS One.
+Documentamos diferencias en el momento y el grado de adopción de la IA entre las distintas áreas científicas, con un crecimiento exponencial generalizado a partir de 2015. Sin embargo, el carácter transformador de este crecimiento resulta menos evidente.
+La investigación apoyada en IA se concentra en un número reducido de temas estrechamente vinculados con las Ciencias de la Computación y los enfoques estadísticos convencionales, lo que sugiere una transformación epistemológica limitada.
+Además, la investigación que utiliza IA se asocia con una ventaja en términos de citas que no parece estar justificada, así como con tasas de retractación considerablemente superiores a las de las investigaciones que no emplean IA.
+Desde una perspectiva geográfica, mientras que los países más ricos lideran la producción de publicaciones sobre IA por habitante, los países del Sur Global situados en una franja que se extiende desde Indonesia hasta Argelia destacan por una mayor adopción de la IA en relación con su producción científica nacional, lo que revela un patrón particular de concentración de recursos.
+Por tanto, el potencial transformador de la IA en la ciencia sigue sin aprovecharse plenamente, y su rápida adopción pone de manifiesto importantes desafíos relacionados con la apertura, la transparencia, la reproducibilidad y la ética de la investigación.
+Por último, analizamos cómo las buenas prácticas científicas podrían potenciar los beneficios derivados de la adopción de la IA y señalamos aquellas áreas que requieren un examen más detenido. 
               </p>
             </div>
           </details>
@@ -118,16 +94,29 @@ author_profile: false
           <p>
             <strong>Ponente:</strong> Mariona Coll Ardanuy
           </p>
-          <details class="talk-details">
-            <summary>Ver descripción</summary>
+          
+            <div class="talk-actions">
+            <details class="talk-details">
+              <summary>Ver descripción</summary>
 
-            <div class="talk-details__content">
-              <p>
-                Mariona Coll Ardanuy es investigadora en el Barcelona Supercomputing Center (BSC), especializada en lingüística computacional, procesamiento del lenguaje natural e inteligencia artificial aplicada al estudio de fenómenos sociales y culturales. Su trayectoria investigadora combina métodos computacionales y análisis del discurso, con especial interés en el estudio de grandes colecciones de textos y en la identificación de patrones lingüísticos. 
+              <div class="talk-details__content">
+                <p>
+                  Mariona Coll Ardanuy es investigadora en el Barcelona Supercomputing Center (BSC), especializada en lingüística computacional, procesamiento del lenguaje natural e inteligencia artificial aplicada al estudio de fenómenos sociales y culturales. Su trayectoria investigadora combina métodos computacionales y análisis del discurso, con especial interés en el estudio de grandes colecciones de textos y en la identificación de patrones lingüísticos. 
                 En esta conferencia, titulada «Manipulación y fake news en la prensa», se abordará el fenómeno de la desinformación en los medios de comunicación desde una perspectiva lingüística y computacional.
-              </p>
-            </div>
-          </details>
+                </p>
+              </div>
+            </details>
+
+            <a
+              href="https://www.researchgate.net/publication/404626726_When_AI_Meets_Science_Research_Diversity_Interdisciplinarity_Visibility_and_Retractions_across_Disciplines_in_a_Global_Surge"
+              class="talk-button talk-button--video"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Más información</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </div>
       </div>
 
