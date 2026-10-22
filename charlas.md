@@ -58,15 +58,6 @@ author_profile: false
       </div>
 
       <hr>
-      
-<div class="talks-layout">
-
-  <main class="talks-content">
-
-    <section id="charlas-2026" class="talks-year-section">
-      <h2 class="talk-year">2026</h2>
-
-      <hr>
 
       <div class="card card--proximamente">
         <div class="card-image">
