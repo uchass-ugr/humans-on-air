@@ -40,7 +40,7 @@ author_profile: false
           </p>
 
           <p>
-            <strong>Ponente:</strong> Joss Morkeens
+            <strong>Ponente:</strong> Joss Moorkens
           </p>
           
           <div class="talk-actions">
