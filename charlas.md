@@ -5,7 +5,60 @@ permalink: /charlas/
 toc: false
 author_profile: false
 ---
+<div class="talks-layout">
 
+  <main class="talks-content">
+
+    <section id="charlas-2026" class="talks-year-section">
+      <h2 class="talk-year">2026</h2>
+
+      <hr>
+
+      <div class="card card--proximamente">
+        <div class="card-image">
+          <img
+            src="{{ '/assets/images/charlas/Joss-Morkeens.png' | relative_url }}"
+            alt="Joss Morkeens"
+          >
+        </div>
+
+        <div class="card-text">
+          <h3 class="talk-title">
+            Ethics and Large Language Models for Translation: Revisiting the Triple Bottom Line
+          </h3>
+
+          <p>
+            <strong>Fecha:</strong> 2 de diciembre de 2026
+          </p>
+          
+          <p>
+            <strong>Hora:</strong> 13:00 - 15:00
+          </p>
+
+          <p>
+            <strong>Lugar:</strong> Por determinar
+          </p>
+
+          <p>
+            <strong>Ponente:</strong> Joss Morkeens
+          </p>
+          
+          <div class="talk-actions">
+            <details class="talk-details">
+              <summary>Ver descripción</summary>
+
+              <div class="talk-details__content">
+                <p> 
+                Since 2022, Generative AI based on large language models (LLMs) has dominated discussion around translation, due to reports of system performance for a number of translation-related tasks. In response to this focus on performance, we (Moorkens et al. 2024) proposed a triple bottom line for translation technology evaluation that balances the effects on people and the planet with model performance. In the subsequent months and years, discussions of ethics and artificial intelligence (AI) have moved forward, although the entanglement of responsibilities and implications between individual users and providers of AI services is ever-more complex. This talk revisits the triple bottom line in the context of what Beck (2016) calls our global metamorphosis: a constant, roiling change that undermines certainties while perhaps also opening up new possibilities for the future.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      
 <div class="talks-layout">
 
   <main class="talks-content">
