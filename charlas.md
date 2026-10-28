@@ -126,7 +126,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                   Presentación ↗
                 </a>
           
-                <a href="{{ '/assets/pdf/presentacion.pdf' | relative_url }}"
+                <a href="https://arxiv.org/abs/2605.06033"
                    target="_blank"
                    rel="noopener noreferrer">
                   Paper ↗
