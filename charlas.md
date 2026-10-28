@@ -120,16 +120,16 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                   Grabación de la charla ↗
                 </a>
           
-                <a href="https://www.researchgate.net/publication/404626726_When_AI_Meets_Science_Research_Diversity_Interdisciplinarity_Visibility_and_Retractions_across_Disciplines_in_a_Global_Surge"
+                <a href="{{ '/assets/slides/HoA_AndresFCastro.pdf' | relative_url }}"
                    target="_blank"
                    rel="noopener noreferrer">
-                  Paper ↗
+                  Presentación ↗
                 </a>
           
                 <a href="{{ '/assets/pdf/presentacion.pdf' | relative_url }}"
                    target="_blank"
                    rel="noopener noreferrer">
-                  Presentación ↗
+                  Paper ↗
                 </a>
           
             </div>
