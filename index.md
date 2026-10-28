@@ -39,52 +39,24 @@ author_profile: false
 
     <article class="home-event-card">
       <div class="home-event-date">
-        <span>OCT</span>
-        <strong>26</strong>
-        <small>LUNES</small>
+        <span>DIC</span>
+        <strong>2</strong>
+        <small>MIE</small>
       </div>
 
       <div class="home-event-info">
         <p class="home-event-type">CHARLA</p>
 
         <h3>
-          When AI Meets Science: Research Diversity, Interdisciplinarity, Visibility, and Retractions across Disciplines in a Global Surge
+          Ethics and Large Language Models for Translation: Revisiting the Triple Bottom Line
         </h3>
 
         <p>
-          Andrés F. Castro
+          Joss Moorkens
         </p>
 
         <p class="home-event-meta">
-          26 de octubre de 2026 · 11:00-13:00 · Sala de Conferencias - Facultad de Traducción e Interpretación UGR
-        </p>
-      </div>
-
-      <a href="{{ '/charlas/' | relative_url }}" class="home-event-link">
-        Más información →
-      </a>
-    </article>
-
-    <article class="home-event-card">
-      <div class="home-event-date">
-        <span>OCT</span>
-        <strong>26</strong>
-        <small>LUNES</small>
-      </div>
-
-      <div class="home-event-info">
-        <p class="home-event-type">CHARLA</p>
-
-        <h3>
-          Procesamiento del Lenguaje Natural para la investigación en Ciencias Sociales y Humanidades
-        </h3>
-
-        <p>
-          Mariona Coll Ardanuy
-        </p>
-
-        <p class="home-event-meta">
-          26 de octubre de 2026 · 11:00-13:00 · Sala de Conferencias - Facultad de Traducción e Interpretación UGR
+          2 de diciembre de 2026 
         </p>
       </div>
 
