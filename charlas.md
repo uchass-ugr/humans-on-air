@@ -140,7 +140,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
 
       <hr>
 
-      <div class="card card--proximamente">
+      <div class="card">
         <div class="card-image">
           <img
             src="{{ '/assets/images/charlas/Mariona-Coll.png' | relative_url }}"
@@ -180,6 +180,15 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                 </p>
               </div>
             </details>
+            <a
+              href="{{ '/assets/slides/HoA_MarionaColl' | relative_url }}"
+              class="talk-button talk-button--video"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Ver presentación</span>
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         </div>
       </div>
