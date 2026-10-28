@@ -106,11 +106,6 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                 </p>
               </div>
             </details>
-            <details class="talk-menu">
-            <summary class="talk-button talk-button--video">
-              <span>Más información</span>
-              <span aria-hidden="true">↓</span>
-            </summary>
             
               <div class="talk-resources">
                 <a href="https://youtu.be/EkbCrfsDY-I"
@@ -137,7 +132,6 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                   <span aria-hidden="true">↗</span>
                 </a>
               </div>
-        </details>
           </div>
         </div>
       </div>
