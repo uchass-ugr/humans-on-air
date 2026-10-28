@@ -181,7 +181,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
               </div>
             </details>
             <a
-              href="{{ '/assets/slides/HoA_MarionaColl' | relative_url }}"
+              href="{{ '/assets/slides/HoA_MarionaColl.pdf' | relative_url }}"
               class="talk-button talk-button--video"
               target="_blank"
               rel="noopener noreferrer"
