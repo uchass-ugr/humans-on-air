@@ -58,7 +58,8 @@ author_profile: false
       </div>
 
       <hr>
-
+     
+      <div class="card">
         <div class="card-image">
           <img
             src="{{ '/assets/images/charlas/Andres-Castro.png' | relative_url }}"
@@ -135,6 +136,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
         </details>
           </div>
         </div>
+      </div>
 
       <hr>
 
