@@ -38,8 +38,8 @@ author_profile: false
           </p>
 
           <p>
-            <strong>Ponentes:</strong> Benamí Barros García y
-            Nicolás Robinson-García (U^CHASS, Universidad de Granada)
+            <strong>Ponentes:</strong> Benamí Barros García, 
+            Nicolás Robinson-García y Ángela Gutiérrez Paniza (U^CHASS, Universidad de Granada)
           </p>
 
           <p>
