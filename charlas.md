@@ -111,28 +111,32 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
               <span>Más información</span>
               <span aria-hidden="true">↓</span>
             </summary>
-  
-              <div class="talk-menu__content">
-          
+            
+              <div class="talk-resources">
                 <a href="https://youtu.be/EkbCrfsDY-I"
+                   class="talk-resource-button"
                    target="_blank"
                    rel="noopener noreferrer">
-                  Grabación de la charla ↗
+                  <span>Grabación</span>
+                  <span aria-hidden="true">↗</span>
                 </a>
-          
+              
                 <a href="{{ '/assets/slides/HoA_AndresFCastro.pdf' | relative_url }}"
+                   class="talk-resource-button"
                    target="_blank"
                    rel="noopener noreferrer">
-                  Presentación ↗
+                  <span>Presentación</span>
+                  <span aria-hidden="true">↗</span>
                 </a>
-          
+              
                 <a href="https://arxiv.org/abs/2605.06033"
+                   class="talk-resource-button"
                    target="_blank"
                    rel="noopener noreferrer">
-                  Paper ↗
+                  <span>Paper</span>
+                  <span aria-hidden="true">↗</span>
                 </a>
-          
-            </div>
+              </div>
         </details>
           </div>
         </div>

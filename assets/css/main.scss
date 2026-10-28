@@ -1607,7 +1607,76 @@ body {
   list-style-type: none;
 }
 
+// ==============================================
+// BOTONES DE RECURSOS DE LAS CHARLAS
+// ==============================================
 
+.talk-resources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  max-width: 100%;
+}
+
+// Botones individuales
+.talk-resource-button,
+.talk-resource-button:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  width: auto;
+  min-height: 44px;
+  padding: 0.5rem 0.85rem;
+
+  background: rgba(118, 145, 202, 0.08);
+  border: 1px solid #7691ca;
+  border-radius: 6px;
+
+  color: #445b8c !important;
+  font-family: $serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+// Efecto al pasar el ratón
+.talk-resource-button:hover {
+  background: #7691ca;
+  color: #ffffff !important;
+  text-decoration: none;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 5px 12px rgba(68, 91, 140, 0.18);
+}
+
+// Flecha de los enlaces
+.talk-resource-button span:last-child {
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.talk-resource-button:hover span:last-child {
+  transform: translate(2px, -2px);
+}
+
+// Accesibilidad con teclado
+.talk-resource-button:focus-visible {
+  outline: 2px solid #445b8c;
+  outline-offset: 3px;
+}
 
 
 
