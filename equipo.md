@@ -77,6 +77,14 @@ author_profile: false
         <a href="https://uchass.ugr.es/miembro/ines-de-los-angeles-gonzalez-hidalgo/">Perfil institucional</a>
       </div>
     </article>
+    <article class="team-card">
+      <img src="{{ '/assets/images/equipo/angela-gutierrez.png' | relative_url }}" alt="Ángela Gutiérrez Paniza">
+      <div class="team-card-content">
+        <h3>Ángela Gutiérrez Paniza</h3>
+        <p>Universidad de Granada</p>
+        <a href="https://uchass.ugr.es/miembro/angela-gutierrez-paniza//">Perfil institucional</a>
+      </div>
+    </article>
 
   </div>
 </section>
