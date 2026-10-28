@@ -59,7 +59,6 @@ author_profile: false
 
       <hr>
 
-      <div class="card card--proximamente">
         <div class="card-image">
           <img
             src="{{ '/assets/images/charlas/Andres-Castro.png' | relative_url }}"
@@ -114,7 +113,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
   
               <div class="talk-menu__content">
           
-                <a href="https://www.youtube.com/watch?v=tCKSowair2Y"
+                <a href="https://youtu.be/EkbCrfsDY-I"
                    target="_blank"
                    rel="noopener noreferrer">
                   Grabación de la charla ↗
@@ -136,7 +135,6 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
         </details>
           </div>
         </div>
-      </div>
 
       <hr>
 
