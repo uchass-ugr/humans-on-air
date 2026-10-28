@@ -109,7 +109,7 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
             <details class="talk-menu">
             <summary class="talk-button talk-button--video">
               <span>Más información</span>
-              <span aria-hidden="true">⌄</span>
+              <span aria-hidden="true">↓</span>
             </summary>
   
               <div class="talk-menu__content">
@@ -117,19 +117,19 @@ Por último, analizamos cómo las buenas prácticas científicas podrían potenc
                 <a href="https://www.youtube.com/watch?v=tCKSowair2Y"
                    target="_blank"
                    rel="noopener noreferrer">
-                  ▶ Grabación de la charla
+                  Grabación de la charla ↗
                 </a>
           
                 <a href="https://www.researchgate.net/publication/404626726_When_AI_Meets_Science_Research_Diversity_Interdisciplinarity_Visibility_and_Retractions_across_Disciplines_in_a_Global_Surge"
                    target="_blank"
                    rel="noopener noreferrer">
-                  📄 Ver paper
+                  Paper ↗
                 </a>
           
                 <a href="{{ '/assets/pdf/presentacion.pdf' | relative_url }}"
                    target="_blank"
                    rel="noopener noreferrer">
-                  📊 Ver presentación
+                  Presentación ↗
                 </a>
           
             </div>
