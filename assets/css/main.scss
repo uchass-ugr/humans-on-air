@@ -1631,11 +1631,11 @@ body {
   min-height: 44px;
   padding: 0.5rem 0.85rem;
 
-  background: rgba(118, 145, 202, 0.08);
+  background: #7691ca;
   border: 1px solid #7691ca;
   border-radius: 6px;
 
-  color: #445b8c !important;
+  color: #ffffff !important;
   font-family: $serif;
   font-size: 0.85rem;
   font-weight: 700;
@@ -1653,7 +1653,7 @@ body {
 
 // Efecto al pasar el ratón
 .talk-resource-button:hover {
-  background: #7691ca;
+  background: #445b8c;
   color: #ffffff !important;
   text-decoration: none;
 
