@@ -56,7 +56,7 @@ author_profile: false
         </p>
 
         <p class="home-event-meta">
-          2 de diciembre de 2026 
+          2 de diciembre de 2026 - Facultad Traducción e Interpretación UGR
         </p>
       </div>
 
