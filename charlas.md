@@ -36,7 +36,7 @@ author_profile: false
           </p>
 
           <p>
-            <strong>Lugar:</strong> Por determinar
+            <strong>Lugar:</strong> Sala de Conferencias - Facultad Traducción e Interpretación UGR
           </p>
 
           <p>
